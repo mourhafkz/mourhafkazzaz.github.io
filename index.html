@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mourhaf Kazzaz - Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="left_panel">
+        <div class="profileText">
+          <div class="imgBox">
+            <img src="img/profile.jpg" alt="profileImage" />
+          </div>
+          <h2>Mourhaf Kazzaz<br /><span>Computational Linguist</span></h2>
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li class="list active" data-url="templates/info.html"><a href="#">Information</a></li>
+            <li class="list" data-url="templates/edu.html"><a href="#">Education</a></li>
+            <li class="list" data-url="templates/exp.html"><a href="#">Experience</a></li>
+            <li class="list" data-url="templates/proj.html"><a href="#">Projects</a></li>
+            <li class="list" data-url="templates/skills.html"><a href="#">Skills</a></li>
+            <div class="indicator"></div>
+          </ul>
+        </div>
+      </div>
+      <div class="right_panel" id="content">    
+
+      </div>
+        
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer>
+        const list = document.querySelectorAll(".list");
+        function activeLink() {
+          list.forEach((item) => item.classList.remove("active"));
+          this.classList.add("active");
+        }
+        list.forEach((item) => item.addEventListener("click", activeLink));
+
+        $(document).ready(function(){
+   
+             $('#content').load("templates/info.html");
+
+             $('.list').on('click',function(){
+                url = $(this).attr("data-url");
+                $('#content').hide().fadeIn('slow');
+                $('#content').load(url);
+                });
+        }); 
+        
+      </script>
+  </body>
+</html>
