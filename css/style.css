@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --blue: #1A2238;
+    --light_blue: #9DAAF2;
+    --orange: #FF6A3D;
+    --yellow: #F4DB7D;
+    --white : #F7F7F7;
+}
+
+body{
+    background-color: var(--light_blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 600px;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.container .left_panel {
+    position: relative;
+    background-color: var(--blue);
+    padding: 40px;
+    border-top-left-radius: 3%;
+}
+
+.profileText {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2 );
+}
+.profileText .imgBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBox img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:  100%;
+}
+.profileText h2{
+    color: var(--white);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText span {
+    color: var(--orange);
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.container .right_panel {
+    position: relative;
+    background-color: var(--white);
+    padding: 40px;
+    border-bottom-right-radius: 3%;
+}
+ 
