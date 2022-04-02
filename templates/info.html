@@ -45,3 +45,18 @@
     </li>
   </ul>
 </div>
+<script>
+  $(".icon").each(function (index) {
+    let s = 0.4;
+    wait = s * (1 + index) + "s";
+    $(this).css("animation-delay", wait);
+    $(this).addClass("animated flipInX");
+  });
+
+  $(".title, .content, .text").each(function (index) {
+    let s = 0.4;
+    wait = s * (1 + index) + "s";
+    $(this).css("animation-delay", wait);
+    $(this).addClass("animated jackInTheBox");
+  });
+</script>

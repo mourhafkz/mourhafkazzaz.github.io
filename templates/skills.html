@@ -1,16 +1,16 @@
 
         <div class="information languages">
-            <h2 class="title">Languages</h2>
+            <h2 class="title anim">Languages</h2>
             <ul>
-              <li>
+              <li class="anim">
                 <span class="text">Arabic</span>
                 <span class="percent"><div style="width: 100%"></div></span>
               </li>
-              <li>
+              <li  class="anim">
                 <span class="text">English</span>
                 <span class="percent"><div style="width: 90%"></div></span>
               </li>
-              <li>
+              <li class="anim">
                 <span class="text">German</span>
                 <span class="percent"><div style="width: 20%"></div></span>
               </li>
@@ -18,35 +18,44 @@
           </div>
   
           <div class="information skills">
-            <h2 class="title">Skills</h2>
+            <h2 class="title anim">Skills</h2>
             <ul>
-              <li>
+              <li class="anim">
                 <span class="text">Html, CSS</span>
                 <span class="percent"><div style="width: 80%"></div></span>
               </li>
-              <li>
+              <li class="anim">
                 <span class="text">Java</span>
                 <span class="percent"><div style="width: 60%"></div></span>
               </li>
   
-              <li>
+              <li class="anim">
                 <span class="text">Python</span>
                 <span class="percent"><div style="width: 80%"></div></span>
               </li>
-              <li>
+              <li class="anim">
                 <span class="text">PHP</span>
                 <span class="percent"><div style="width: 50%"></div></span>
               </li>
-              <li>
+              <li class="anim">
                 <span class="text">Databases (MySQL, Postgresql, ...)</span>
                 <span class="percent"><div style="width: 70%"></div></span>
               </li>
   
-              <li>
+              <li class="anim">
                 <span class="text">Tensorflow, Pandas, Numpy</span>
                 <span class="percent"><div style="width: 60%"></div></span>
               </li>
             </ul>
           </div>
         </div>
-  
+        <script>
+          $('.anim').each(function(index){                    
+              let s = 0.4
+              wait = s*(1+index) + 's'
+            
+            $(this).css('animation-delay' , wait);
+            $(this).addClass("animated flipInX");  
+          });;
+       
+</script>
