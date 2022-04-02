@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animate.css" />
   </head>
@@ -34,7 +35,8 @@
           <div class="imgBox">
             <img src="img/profile.jpg" alt="profileImage" />
           </div>
-          <h2>Mourhaf Kazzaz<br /><span>Computational Linguist</span></h2>
+          <h2 >Mourhaf Kazzaz</h2>
+          <h3 class="animated rubberBand">Computational Linguist</h3>
         </div>
 
         <div class="navigation">
@@ -57,6 +59,7 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script defer>
+        // add active to navigation
         const list = document.querySelectorAll(".list");
         function activeLink() {
           list.forEach((item) => item.classList.remove("active"));
@@ -64,14 +67,28 @@
         }
         list.forEach((item) => item.addEventListener("click", activeLink));
 
+        // animate function
+
+        function animate(element, animation){
+            $(element).addClass('animated '+ animation );
+            var wait = setTimeout(function(){
+              $(element).removeClass('animated '+ animation );
+            }, 500);
+          }
+          
+
+        // when the document is loaded
         $(document).ready(function(){
-   
+              // load info section
              $('#content').load("templates/info.html");
 
-             $('.list').on('click',function(){
+              // change pages based on navigation clicks
+             $('.list').on('click',function(e){
                 url = $(this).attr("data-url");
                 $('#content').hide().fadeIn('slow');
+                
                 $('#content').load(url);
+                e.preventDefault();
                 });
         }); 
         
