@@ -114,23 +114,31 @@ body{
 .navigation ul li a{
     
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start ;
-    width: 100px;
-    text-align: center;
+    font-size: 2em;
     text-decoration: none;
-    color: var(--white);
+    color: transparent;
+    letter-spacing: 2px;
+    
+    -webkit-text-stroke: 1px rgba(233, 147, 0, 0.5);
 }
-.indicator {
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 55px;
-    background-color: var(--orange) ;
-    border-radius: 10px;
-    transition: 0.5s ease-in-out;
 
+.navigation ul li a::before{
+    content: attr(data-text);
+    position: absolute;
+    color:var(--orange);
+    width: 0;
+    overflow:hidden;
+    transition: 1s;
+    border-right: 8px solid var(--orange);
+    -webkit-text-stroke: 1px rgba(233, 147, 0, 0.5);
+}
+.navigation ul li a:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 20px var(--orange));
+}
+.navigation ul li a.active::before{
+    width: 100%;
+    filter: drop-shadow(0 0 20px var(--orange));
 }
 
 .navigation ul li:nth-child(1).active ~ .indicator{
