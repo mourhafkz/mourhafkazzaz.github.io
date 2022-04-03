@@ -41,12 +41,12 @@
 
         <div class="navigation">
           <ul>
-            <li class="list active" data-url="templates/info.html"><a href="#">Information</a></li>
-            <li class="list" data-url="templates/edu.html"><a href="#">Education</a></li>
-            <li class="list" data-url="templates/exp.html"><a href="#">Experience</a></li>
-            <li class="list" data-url="templates/proj.html"><a href="#">Projects</a></li>
-            <li class="list" data-url="templates/skills.html"><a href="#">Skills</a></li>
-            <div class="indicator"></div>
+              <li class="list active" data-url="templates/info.html"><a href="#" class = "nav_link active" data-text="&nbsp;Information" >&nbsp;Information</a></li>
+              <li class="list" data-url="templates/edu.html"><a href="#" class = "nav_link" data-text="&nbsp;Education">&nbsp;Education</a></li>
+            <li class="list" data-url="templates/exp.html"><a href="#" class = "nav_link" data-text="&nbsp;Experience">&nbsp;Experience</a></li>
+            <li class="list" data-url="templates/proj.html"><a href="#" class = "nav_link" data-text="&nbsp;Projects">&nbsp;Projects</a></li>
+            <li class="list" data-url="templates/skills.html"><a href="#" class = "nav_link" data-text="&nbsp;Skills">&nbsp;Skills</a></li>
+
           </ul>
         </div>
       </div>
@@ -59,13 +59,20 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script defer>
-        // add active to navigation
+        // add active to navigation li
         const list = document.querySelectorAll(".list");
-        function activeLink() {
+        const link = document.querySelectorAll(".nav_link");
+        function activeListItem() {
           list.forEach((item) => item.classList.remove("active"));
           this.classList.add("active");
         }
-        list.forEach((item) => item.addEventListener("click", activeLink));
+        function activeLink() {
+          link.forEach((item) => item.classList.remove("active"));
+          this.classList.add("active");
+        }
+        list.forEach((item) => item.addEventListener("click", activeListItem));
+        link.forEach((item) => item.addEventListener("click", activeLink));
+
 
         // animate function
 
