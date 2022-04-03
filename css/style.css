@@ -128,16 +128,20 @@ body{
     color:var(--orange);
     width: 0;
     overflow:hidden;
+    /* border-right: 8px solid var(--orange); to keep the typer to the left */
     transition: 1s;
-    border-right: 8px solid var(--orange);
+    
     -webkit-text-stroke: 1px rgba(233, 147, 0, 0.5);
 }
+
 .navigation ul li a:hover::before{
     width: 100%;
+    border-right: 8px solid var(--orange);
     filter: drop-shadow(0 0 20px var(--orange));
 }
 .navigation ul li a.active::before{
     width: 100%;
+    border-right: 8px solid var(--orange);
     filter: drop-shadow(0 0 20px var(--orange));
 }
 
