@@ -1,19 +1,11 @@
 <div class="information">
   <h2 class="title">About Me</h2>
   <p class="content">
-    My name is Mourhaf and I am Syrian national studying in Germany. I am an enthusiastic learner. I enjoy politics,
+    My name is Mourhaf and I am an enthusiastic learner. I enjoy politics,
     languages, and programming. Not necessarily in that order.
   </p>
-  <p class="content">
-  Zu Sprachen: Meine Deutschkenntnisse verbessere ich derzeit durch Deutschkurse (inkl. Tandem).
-  </p>
-  
   <h2 class="title">Contact Information:</h2>
   <ul>
-     <li>
-      <span class="icon"><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
-      <span class="text">Aleppo, Syria 28.04.1986</span>
-    </li>
     <li>
       <span class="icon"
         ><i class="fa fa-map-marker" aria-hidden="true"></i
@@ -61,7 +53,7 @@
     $(this).addClass("animated flipInX");
   });
 
-  $(".title, .content, .text").each(function (index) {
+  $(".text").each(function (index) {
     let s = 0.4;
     wait = s * (1 + index) + "s";
     $(this).css("animation-delay", wait);
