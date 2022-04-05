@@ -41,7 +41,7 @@
 
         <div class="navigation">
           <ul>
-              <li class="list active" data-url="templates/info.html"><a href="#" class = "nav_link active" data-text="&nbsp;Information" >&nbsp;Information</a></li>
+              <li class="list" data-url="templates/info.html"><a href="#" class = "nav_link" data-text="&nbsp;Information" >&nbsp;Information</a></li>
               <li class="list" data-url="templates/edu.html"><a href="#" class = "nav_link" data-text="&nbsp;Education">&nbsp;Education</a></li>
             <li class="list" data-url="templates/exp.html"><a href="#" class = "nav_link" data-text="&nbsp;Experience">&nbsp;Experience</a></li>
             <li class="list" data-url="templates/proj.html"><a href="#" class = "nav_link" data-text="&nbsp;Projects">&nbsp;Projects</a></li>
@@ -88,6 +88,7 @@
         $(document).ready(function(){
               // load info section
              $('#content').load("templates/info.html");
+             $('.list').first().addClass('active').children().addClass('active');
 
               // change pages based on navigation clicks
              $('.list').on('click',function(e){
