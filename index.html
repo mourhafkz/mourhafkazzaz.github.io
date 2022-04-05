@@ -59,39 +59,25 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script defer>
-        // add active to navigation li
-        const list = document.querySelectorAll(".list");
-        const link = document.querySelectorAll(".nav_link");
-        function activeListItem() {
-          list.forEach((item) => item.classList.remove("active"));
-          this.classList.add("active");
-        }
-        function activeLink() {
-          link.forEach((item) => item.classList.remove("active"));
-          this.classList.add("active");
-        }
-        list.forEach((item) => item.addEventListener("click", activeListItem));
-        link.forEach((item) => item.addEventListener("click", activeLink));
 
-
-        // animate function
-
-        function animate(element, animation){
-            $(element).addClass('animated '+ animation );
-            var wait = setTimeout(function(){
-              $(element).removeClass('animated '+ animation );
-            }, 500);
-          }
-          
 
         // when the document is loaded
         $(document).ready(function(){
-              // load info section
+              // load info section and activate links after page ready
              $('#content').load("templates/info.html");
              $('.list').first().addClass('active').children().addClass('active');
 
-              // change pages based on navigation clicks
+
+              // navigation clicks
              $('.list').on('click',function(e){
+
+             // remove all active classes
+                $('.list').each(function(i, obj) {
+                    $(this).removeClass('active').children().removeClass("active");
+                  })
+            // activate link for style and li for indentation
+              $(this).addClass('active').children().addClass("active");;
+                // load the template into content div
                 url = $(this).attr("data-url");
                 $('#content').hide().fadeIn('slow');
                 
