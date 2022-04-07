@@ -47,8 +47,11 @@ let options = [
   let array = [];
   for (let i = 0; i <= 3000; i++) {
     const random = Math.floor(Math.random() * options.length);
-    $(".bg_container").append(options[random]);
-  }
+    array.push(options[random]);
+}
+document.querySelector(".bg_container").innerHTML = array.join("")
+
+
 
   $(window).on('scroll', function () {
     var scrollTop = $(window).scrollTop();
