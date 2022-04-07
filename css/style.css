@@ -46,7 +46,7 @@ body{
     transition: 2s;
   }
   .bg_container .char:hover {
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
     color: #ff6a3d;
   }
 
