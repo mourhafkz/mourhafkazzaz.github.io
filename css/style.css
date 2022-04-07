@@ -21,11 +21,48 @@ body{
     min-height: 100vh;
 }
 
-.container {
+/* background section */
+.bg_container {
+    
+    height: 130vh;
+    /* height:auto; */
+    overflow: hidden;
+    background: #2a375b;
     position: relative;
-    width: 100%;
+  }
+  .bg_container .char {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: rotate(-30deg);
+  }
+  .bg_container .char {
+    color: rgba(0, 0, 0, 0.3);
+    transition: 2s;
+  }
+  .bg_container .char:hover {
+    transition: 0.2s ease-in-out;
+    color: #ff6a3d;
+  }
+
+
+/* content section */
+.container {
+    position: absolute;
+    /* margin: 10px; */
+    /* width: 100%;
     max-width: 1000px;
-    min-height: 600px;
+    min-height: 1000px; */
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    width: 75%;
+    min-height: 80%;
     background-color: var(--white);
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -298,6 +335,7 @@ body{
 @media(max-width: 1000px){
     .container{
         margin: 10px;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
     
