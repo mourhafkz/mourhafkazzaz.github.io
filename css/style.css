@@ -50,19 +50,40 @@ body{
     color: #ff6a3d;
   }
 
+  /* fun icons */
+.bg_container .heart:hover {
+color: red;
+}
+.bg_container .leaf:hover {
+    color: green;
+    }
+.bg_container .ball:hover {
+    color: black;
+    }
+.bg_container .uni:hover {
+    color: white;
+    }
 
-/* content section */
+.bg_container .dollar:hover {
+color: #85bb65 ;
+}
+
+.bg_container .euro:hover {
+color: #5D7EA7;
+}
+
+.bg_container .bus:hover {
+    color: yellow;
+    }
+    
+
+
 .container {
     position: absolute;
-    /* margin: 10px; */
-    /* width: 100%;
-    max-width: 1000px;
-    min-height: 1000px; */
-    position: absolute;
+    width: 100%;
     top: 5%;
-    bottom: 5%;
-    width: 75%;
-    min-height: 80%;
+    max-width: 1000px;
+    min-height: 600px;
     background-color: var(--white);
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -331,11 +352,9 @@ body{
 }
 
 
-
 @media(max-width: 1000px){
     .container{
         margin: 10px;
-        width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
     
