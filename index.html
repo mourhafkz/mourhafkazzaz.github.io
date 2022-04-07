@@ -9,7 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mourhaf Kazzaz - Portfolio</title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
@@ -112,11 +113,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bg.js"></script>
+
     
     <script>
-    
+
         // when the document is loaded
         $(document).ready(function(){
+
+
               // load info section and activate links after page ready
              $('#content').load("templates/info.html");
              $('.list').first().addClass('active').children().addClass('active');
@@ -133,20 +137,8 @@
               $(this).addClass('active').children().addClass("active");;
                 // load the template into content div
                 url = $(this).attr("data-url");
-                // $('#content').hide().fadeIn('slow');
-                
+
                 $('#content').load(url);
-                
-
-                // $('#content').load(url, function() {
-                //   $('body').height($('#content').height());
-                // });
-
-
-
-
-
-
 
                 
                 e.preventDefault();
