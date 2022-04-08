@@ -54,6 +54,11 @@ body{
 .bg_container .heart:hover {
 color: red;
 }
+
+.bg_container .diamond:hover {
+    color: red;
+    }
+
 .bg_container .leaf:hover {
     color: green;
     }
