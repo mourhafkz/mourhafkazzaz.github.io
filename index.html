@@ -61,7 +61,7 @@
       
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/bg.js"></script>
+    <script src="js/icon_game.js"></script>
 
     
     <script>
@@ -90,55 +90,7 @@
                 e.preventDefault();
                 });
 
-
-                // game
-                $('.char').mouseover(function(){
-                  this_score = $(this).attr('data-score');
-                  score = score + parseInt(this_score); 
-                  $(this).attr('title', this_score);
-                })
-
-                $('.score').mouseover(function(){
-                  $(this).text("click to view score")
-                })
-                $('.score').mouseout(function(){
-                  $(this).text("Computational Linguist")
-                })
-
-                $('.reset').mouseover(function(){
-                  score = 0
-                  reset = reset +1 
-                }) 
-
-                $(".score").on("click", function () {
-                  
-                    if (score == 0) {
-                      if (reset == 0) {
-                        alert("You haven't found the game yet. Hint: hover")
-                      } else {
-                        alert("So many resets. You are back at 0")
-                      }
-                      
-                    } else {
-                      if (reset == 0) {
-                        alert("Your score is "+ score+ " without resets. Congratulations!")
-                      }
-                      else {
-                        alert("Your score is "+ score + " with " + reset+ " reset(s). Try to avoid all the red ones")
-                      }
-                      
-                    }
-                    score = 0
-                    reset = 0
-                });
-
-
         }); 
-
-        
-
-        
-
       </script>
   </body>
 </html>
