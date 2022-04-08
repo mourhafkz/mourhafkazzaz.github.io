@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mourhaf Kazzaz - Portfolio</title>
     <meta name="description" content="" />
-     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <link
       rel="stylesheet"
@@ -38,7 +38,7 @@
             <img src="img/profile.jpg" alt="profileImage" />
           </div>
           <h2 >Mourhaf Kazzaz</h2>
-          <h3 class="animated rubberBand">Computational Linguist</h3>
+          <h3 class="animated rubberBand score">Computational Linguist</h3>
         </div>
 
         <div class="navigation">
@@ -51,65 +51,14 @@
 
           </ul>
         </div>
+
       </div>
       <div class="right_panel" id="content">    
-        <div class="information">
-          <h2 class="title">About Me</h2>
-          <p class="content">
-            My name is Mourhaf. I am a Syrian national studying in Germany. I am an
-            enthusiastic learner and I enjoy politics, languages, and programming. Not
-            necessarily in that order. Zu Sprachen: Meine Deutschkenntnisse verbessere
-            ich derzeit durch Deutschkurse (inkl. Tandem).
-          </p>
-          <h2 class="title">Personal Information:</h2>
-          <ul>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-birthday-cake" aria-hidden="true"></i
-              ></span>
-              <span class="text">1986 Aleppo, Syria</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-map-marker" aria-hidden="true"></i
-              ></span>
-              <span class="text">Wankheimer Täle 1, Tübingen 72072</span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
-              <span class="text">1782 3208 26</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-envelope" aria-hidden="true"></i
-              ></span>
-              <span class="text">mourhafkazzaz(at)gmail(dot)com</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><a href="https://www.facebook.com/mourhafkazzaz/" target="_blank"
-                  ><i class="fa fa-facebook-square" aria-hidden="true"></i></a
-              ></span>
         
-              <span class="icon"
-                ><a href="https://twitter.com/mourhafkazzaz" target="_blank"
-                  ><i class="fa fa-twitter" aria-hidden="true"></i></a
-              ></span>
         
-              <span class="icon"
-                ><a href="https://www.linkedin.com/in/mourhafkazzaz/" target="_blank"
-                  ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
-              ></span>
-        
-              <span class="icon"
-                ><a href="https://github.com/mourhafkz" target="_blank"
-                  ><i class="fa fa-github" aria-hidden="true"></i></a
-              ></span>
-            </li>
-          </ul>
-        </div>
       </div>
-        
+      
+      
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bg.js"></script>
@@ -119,8 +68,8 @@
 
         // when the document is loaded
         $(document).ready(function(){
-
-
+            score = 0
+            
               // load info section and activate links after page ready
              $('#content').load("templates/info.html");
              $('.list').first().addClass('active').children().addClass('active');
@@ -137,17 +86,40 @@
               $(this).addClass('active').children().addClass("active");;
                 // load the template into content div
                 url = $(this).attr("data-url");
-
                 $('#content').load(url);
-
-                
                 e.preventDefault();
                 });
+
+
+                // game
+                $('.char').hover(function(){
+                  this_score = $(this).attr('data-score');
+                  score = score + parseInt(this_score); 
+                  $(this).attr('title', this_score);
+                })
+
+                $('.score').mouseover(function(){
+                  $(this).text("click for score")
+                })
+                $('.score').mouseout(function(){
+                  $(this).text("Computational Linguist")
+                })
+
+                $(".score").on("click", function () {
+                  
+                    if (score == 0) {
+                      alert("You haven't found the game yet. Hint: hover")
+                    } else {
+                      alert("Your score is "+ score)
+                    }
+                });
+
+
         }); 
 
         
 
-
+        
 
       </script>
   </body>
