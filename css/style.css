@@ -130,8 +130,12 @@ color: #5D7EA7;
     top: 0;
     right:0;
     padding: 10px 20px;
-    color: var(--orange);
+    color: black;
     cursor: pointer;
+}
+
+.close:hover{
+    color: var(--orange);
 }
 
 
