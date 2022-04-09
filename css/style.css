@@ -112,9 +112,8 @@ color: #5D7EA7;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
-    width: 70%;
-    height: 50%;
+    background: var(--light_blue);
+    color: var(--blue);
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
@@ -131,7 +130,7 @@ color: #5D7EA7;
     top: 0;
     right:0;
     padding: 10px 20px;
-    color: #f00;
+    color: var(--orange);
     cursor: pointer;
 }
 
