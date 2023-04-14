@@ -19,10 +19,13 @@ $(document).ready(function () {
                     // random pronoun from conjugation table
                     new_obj = convert(random_entry)
                     var random_key = new_obj[Math.floor(Math.random() * new_obj.length)]
-                    console.log(random_key.field);
+
                     if (random_key.field != "verb" && random_key.field != "status") {
                         $('#front').html('<p>' + random_key.field + ' _________</p><p class="tense_display">(' + random_entry.verb + ')</p>');
                         $('#back').html('<p>' + random_key.field + ' ' + random_key.value + '</p>');
+                    } else {
+                        // reclick the button if no a pronoun field
+                        $("#conjugate_question").trigger('click');
                     }
 
                 } else {
