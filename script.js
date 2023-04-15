@@ -79,8 +79,8 @@ $(document).ready(function () {
                     var random_key = new_obj[Math.floor(Math.random() * new_obj.length)]
 
                     if (random_key.field != "verb" && random_key.field != "status") {
-                        $('#front').html('<p>' + random_key.field + ' _________</p><p class="tense_display">' + random_entry.verb + '</p>');
-                        $('#back').html('<p>' + random_key.field + ' ' + random_key.value + '</p>');
+                        $('#front').html('<div class="p_area"><p>' + random_key.field + ' _________</p><p class="tense_display">' + random_entry.verb + '</p></div>');
+                        $('#back').html('<div class="p_area"><p>' + random_key.field + ' ' + random_key.value + '</p></div>');
                     } else {
                         // reclick the button if no a pronoun field
                         $("#conjugate_question").trigger('click');
@@ -88,15 +88,15 @@ $(document).ready(function () {
                 }
                 else {
 
-                    $('#front').html('<p class="tense_display">' + random_entry.verb + '</p>');
-                    html = ''
+                    $('#front').html('<div class="p_area"><p class="tense_display">' + random_entry.verb + '</p></div>');
+                    html = '<div class="p_area">'
                     for (key in random_entry) {
                         if (key != "verb" && key != "status") {
-                            html += "<p>" + key + " " + random_entry[key] + "</p>"
+                            html += "<p>" + key + "  " + random_entry[key] + "</p>"
                         }
                         // console.log(random_entry[key])
                     }
-                    $('#back').html(html);
+                    $('#back').html(html + "</div>");
 
                 }
 

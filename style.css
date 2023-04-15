@@ -1,50 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.flip-card {
-    background-color: transparent;
     width: 100%;
-    height: 300px;
-    perspective: 1000px;
-    margin-top: 10px;
-    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003f88;
 }
 
-.flip-card-inner {
+.card {
     position: relative;
-    width: 100%;
-    height: 100%;
-    font-size: 20px;
-    transition: transform 0.6s;
+    width: 300px;
+    height: 400px;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
+.card .face {
     position: absolute;
+    top: 0;
+    left: 5%;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     backface-visibility: hidden;
-
+    transition: 1s ease-in-out;
+    transform: perspective(500px) rotateY(0deg);
 }
 
-.flip-card-front {
-
-    background-color: #a2d2fa;
-    color: black;
+.card .face.front {
+    background: #fdc500;
 }
 
-.flip-card-back {
-    background-color: #dcfdfa;
-    color: black;
-    transform: rotateY(180deg);
+.card:hover .face.front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card .face.back {
+    background: #ecf7fc;
+    color: #000;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .face.back {
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.card .face h2 {
+    font-size: 1.5em;
+    transform: perspective(500px) translateZ(50px);
+}
+
+.buttons_area {
+    margin: 20px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+}
+
+.buttons_area .buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+p {
+    margin: 5px;
+    font-size: 1.5em;
 }
 
 .das {
@@ -65,7 +112,7 @@ body {
 }
 
 .tense_display {
-    font-size: 16px;
+    font-size: 1.5em;
 }
 
 .verb_meaning {
