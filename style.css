@@ -67,3 +67,12 @@ body {
 .tense_display {
     font-size: 16px;
 }
+
+.verb_meaning {
+    margin-top: 165px;
+    font-size: 8px;
+}
+
+.ending {
+    color: red;
+}
