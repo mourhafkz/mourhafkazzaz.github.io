@@ -79,7 +79,7 @@ $(document).ready(function () {
                     var random_key = new_obj[Math.floor(Math.random() * new_obj.length)]
 
                     if (random_key.field != "verb" && random_key.field != "status") {
-                        $('#front').html('<div class="p_area"><p>' + random_key.field + ' _________</p><p class="tense_display">' + random_entry.verb + '</p></div>');
+                        $('#front').html('<div class="p_area"><p>' + random_key.field + ' ____</p><p class="tense_display">' + random_entry.verb + '</p></div>');
                         $('#back').html('<div class="p_area"><p>' + random_key.field + ' ' + random_key.value + '</p></div>');
                     } else {
                         // reclick the button if no a pronoun field
