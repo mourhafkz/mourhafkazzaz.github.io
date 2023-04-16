@@ -88,6 +88,11 @@ body {
     font-size: 1em;
 }
 
+.button:hover {
+    background-color: #34ec3a;
+    color: black;
+}
+
 p {
     margin: 5px;
     padding-left: 20px;
