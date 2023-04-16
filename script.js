@@ -37,11 +37,11 @@ $(document).ready(function () {
     var phrases = load_json('data/phrases.json');
     var words = load_json('data/words.json');
     var conjugates = load_json('data/conjugates.json');
-
-
+    var endings = load_json('data/endings.json');
+    // console.log(articles.length)
     var appeared_once = []
     var appeared_once_conjugates = []
-    $("#article_question, #phrase_question, #word_question, #conjugate_question, #conjugation_table").click(function (event) {
+    $("#article_question, #phrase_question, #word_question, #conjugate_question, #conjugation_table, #ending_table").click(function (event) {
 
         expected_filename = $(this).attr('id').split('_')[0] + 's'  //article_question to articles.json
 
@@ -50,6 +50,7 @@ $(document).ready(function () {
         else if (expected_filename == 'phrases') { filename = phrases; }
         else if (expected_filename == 'words') { filename = words; }
         else if (expected_filename == 'conjugates') { filename = conjugates; }
+        else if (expected_filename == 'endings') { filename = endings; }
         else { filename = conjugates; }
 
         // pick random word
@@ -100,6 +101,11 @@ $(document).ready(function () {
 
                 }
 
+            }
+            else if (filename == endings) {
+                $('#front').html('<p>' + random_entry.task + '</p>');
+
+                $('#back').html('<div class="p_area">' + random_entry.solution + "</div>");
             }
             else {
                 $('#front').html('<p>' + random_entry.task + '</p>');
