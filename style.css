@@ -42,6 +42,8 @@ body {
     backface-visibility: hidden;
     transition: 1s ease-in-out;
     transform: perspective(500px) rotateY(0deg);
+    flex-flow: row wrap;
+
 }
 
 .card .face.front {
@@ -108,6 +110,10 @@ p {
     transform: perspective(500px) translateZ(50px);
 }
 
+.back {
+    transform: perspective(500px) translateZ(50px);
+}
+
 .das {
     color: green;
 }
@@ -131,6 +137,11 @@ p {
 
 .verb_meaning {
     margin-top: 165px;
+    font-size: 8px;
+}
+
+.plural {
+    display: block;
     font-size: 8px;
 }
 
