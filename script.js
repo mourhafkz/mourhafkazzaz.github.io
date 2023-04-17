@@ -111,7 +111,7 @@ $(document).ready(function () {
             }
             else {
                 $('#front').html('<p>' + random_entry.task + '</p>');
-                $('#back').html('<p>' + random_entry.solution + '</p>');
+                $('#back').html(random_entry.solution);
             }
 
         }

@@ -1,274 +1,262 @@
 ﻿task,solution,status
-Abschnitt,"<span class=""der"">der</span><p class=""plural"">die Abschnitte</p>",0
-Agent,"<span class=""der"">der</span><p class=""plural"">die Agenten</p>",0
-Ähnlichkeit,"<span class=""die"">die</span><p class=""plural"">die Ähnlichkeiten</p>",0
-Alphabet,"<span class=""das"">das</span><p class=""plural"">die Alphabete</p>",0
-Alter,"<span class=""das"">das</span><p class=""plural"">die Alter</p>",0
-Alternative,"<span class=""die"">die</span><p class=""plural"">die Alternativen</p>",0
-Amt,"<span class=""das"">das</span><p class=""plural"">die Ämter</p>",0
-Ananas,"<span class=""die"">die</span><p class=""plural"">die Ananas(se)</p>",0
-Angebot,"<span class=""das"">das</span><p class=""plural"">die Angebote</p>",0
-Antwort,"<span class=""die"">die</span><p class=""plural"">die Antworten</p>",0
-Apotheke,"<span class=""die"">die</span><p class=""plural"">die Apotheken</p>",0
-Arbeit,"<span class=""die"">die</span><p class=""plural"">die Arbeiten</p>",0
-Ärger,"<span class=""der"">der</span>",0
-Art,"<span class=""die"">die</span><p class=""plural"">die Arten</p>",0
-Arzt,"<span class=""der"">der</span><p class=""plural"">die Ärzte</p>",0
-Arztpraxis,"<span class=""die"">die</span><p class=""plural"">die Arztpraxen</p>",0
-Aussprache,"<span class=""die"">die</span><p class=""plural"">die Aussprachen</p>",0
-Auto,"<span class=""das"">das</span><p class=""plural"">die Autos</p>",0
-Babywindel,"<span class=""die"">die</span><p class=""plural"">die Babywindeln</p>",0
-Bächlein,"<span class=""das"">das</span><p class=""plural"">die Bächlein</p>",0
-Bäckerei,"<span class=""die"">die</span><p class=""plural"">die Bäckereien</p>",0
-Bäckerei,"<span class=""die"">die</span><p class=""plural"">die Bäckereien</p>",0
-Bäckerei,"<span class=""die"">die</span><p class=""plural"">die Bäckereien</p>",0
-Banane,"<span class=""die"">die</span><p class=""plural"">die Bananen</p>",0
-Bank,"<span class=""die"">die</span><p class=""plural"">die Bänke</p>",0
-baüm,"<span class=""der"">der</span><p class=""plural"">die Bäume</p>",0
-Baumarkt,"<span class=""der"">der</span><p class=""plural"">die Baumärkte</p>",0
-Benzin,"<span class=""das"">das</span><p class=""plural"">die Benzine</p>",0
-Beruf,"<span class=""der"">der</span><p class=""plural"">die Berufe</p>",0
-Bett,"<span class=""das"">das</span><p class=""plural"">die Betten</p>",0
-Bewusstsein,"<span class=""das"">das</span><p class=""plural"">die Bewusstseine</p>",0
-Bleistift,"<span class=""der"">der</span><p class=""plural"">die Bleistifte</p>",0
-Blondine,"<span class=""die"">die</span><p class=""plural"">die Blondinen</p>",0
-Boot,"<span class=""das"">das</span><p class=""plural"">die Boote</p>",0
-Brot,"<span class=""das"">das</span><p class=""plural"">die Brote</p>",0
-Bruder,"<span class=""der"">der</span><p class=""plural"">die Brüder</p>",0
-Buch,"<span class=""das"">das</span><p class=""plural"">die Bücher</p>",0
-Bücherei,"<span class=""die"">die</span><p class=""plural"">die Büchereien</p>",0
-Buddhist,"<span class=""der"">der</span><p class=""plural"">die Buddhisten</p>",0
-Bundesland,"<span class=""das"">das</span><p class=""plural"">die Bundesländer/Bundeslande</p>",0
-Chemiker,"<span class=""der"">der</span><p class=""plural"">die Chemiker</p>",0
-Chor,"<span class=""der"">der</span><p class=""plural"">die Chore/Chöre</p>",0
-Cousin,"<span class=""der"">der</span><p class=""plural"">die Cousins</p>",0
-Cousine,"<span class=""die"">die</span><p class=""plural"">die Cousinen</p>",0
-Datum,"<span class=""das"">das</span><p class=""plural"">die Daten</p>",0
-Denker,"<span class=""der"">der</span><p class=""plural"">die Denker</p>",0
-Dessert,"<span class=""das"">das</span><p class=""plural"">die Desserts</p>",0
-Dichter,"<span class=""der"">der</span><p class=""plural"">die Dichter</p>",0
-Dieb,"<span class=""der"">der</span><p class=""plural"">die Diebe</p>",0
-Dienstag,"<span class=""der"">der</span><p class=""plural"">die Dienstage</p>",0
-Ding,"<span class=""das"">das</span><p class=""plural"">die Dinge</p>",0
-Discounter,"<span class=""der"">der</span><p class=""plural"">die Discounter</p>",0
-Dom,"<span class=""der"">der</span><p class=""plural"">die Dome</p>",0
-Donnerstag,"<span class=""der"">der</span><p class=""plural"">die Donnerstage</p>",0
-Dosis,"<span class=""die"">die</span><p class=""plural"">die Dosen</p>",0
-Drama,"<span class=""das"">das</span><p class=""plural"">die Dramen</p>",0
-Drogerie,"<span class=""die"">die</span><p class=""plural"">die Drogerien</p>",0
-Ei,"<span class=""das"">das</span><p class=""plural"">die Eier</p>",0
-Eigentum,"<span class=""das"">das</span><p class=""plural"">die Eigentume</p>",0
-Einkäufe,"<span class=""der"">der</span><p class=""plural"">die Einkäufe</p>",0
-Einkaufswagen,"<span class=""der"">der</span><p class=""plural"">die Einkaufswagen/Einkaufswägen</p>",0
-Einwohnerzahl,"<span class=""die"">die</span><p class=""plural"">die Einwohnerzahlen</p>",0
-Element,"<span class=""das"">das</span><p class=""plural"">die Elemente</p>",0
-Essen,"<span class=""das"">das</span><p class=""plural"">die Essen</p>",0
-Experiment,"<span class=""das"">das</span><p class=""plural"">die Experimente</p>",0
-Fachwerkhaus,"<span class=""das"">das</span><p class=""plural"">die Fachwerkhäuser</p>",0
-Fähre,"<span class=""die"">die</span><p class=""plural"">die Fähren</p>",0
-Familie,"<span class=""die"">die</span><p class=""plural"">die Familien</p>",0
-Farbe,"<span class=""die"">die</span><p class=""plural"">die Farben</p>",0
-Fenster,"<span class=""das"">das</span><p class=""plural"">die Fenster</p>",0
-Fläschchen,"<span class=""das"">das</span><p class=""plural"">die Fläschchen</p>",0
-Fleisch,"<span class=""das"">das</span><p class=""plural"">die Fleische</p>",0
-Flohmarkt,"<span class=""der"">der</span><p class=""plural"">die Flohmärkte</p>",0
-Fräulein,"<span class=""das"">das</span><p class=""plural"">die Fräulein(s)</p>",0
-Freiheit,"<span class=""die"">die</span><p class=""plural"">die Freiheiten</p>",0
-Freitag,"<span class=""der"">der</span><p class=""plural"">die Freitage</p>",0
-Frisör,"<span class=""der"">der</span><p class=""plural"">die Frisöre</p>",0
-Frühling,"<span class=""der"">der</span><p class=""plural"">die Frühlinge</p>",0
-Füllung,"<span class=""die"">die</span><p class=""plural"">die Füllungen</p>",0
-Füß,"<span class=""der"">der</span><p class=""plural"">die Füße</p>",0
-Gast,"<span class=""der"">der</span><p class=""plural"">die Gäste</p>",0
-Geldbeutel,"<span class=""der"">der</span><p class=""plural"">die Geldbeutel</p>",0
-Gemüse,"<span class=""das"">das</span><p class=""plural"">die Gemüse</p>",0
-Geräusch,"<span class=""das"">das</span><p class=""plural"">die Geräusche</p>",0
-Geschäft,"<span class=""das"">das</span><p class=""plural"">die Geschäfte</p>",0
-Geschäfte,"<span class=""das"">das</span><p class=""plural"">die Geschäfte</p>",0
-Geschlecht,"<span class=""das"">das</span><p class=""plural"">die Geschlechter</p>",0
-Gesundheit,"<span class=""die"">die</span><p class=""plural"">die Gesundheiten</p>",0
-Getränke,"<span class=""das"">das</span><p class=""plural"">die Getränke</p>",0
-Gewitter,"<span class=""das"">das</span><p class=""plural"">die Gewitter</p>",0
-Glück,"<span class=""das"">das</span><p class=""plural"">die Glücke</p>",0
-Großbuchstabe,"<span class=""der"">der</span><p class=""plural"">die Großbuchstaben</p>",0
-Großmutter,"<span class=""die"">die</span><p class=""plural"">die Großmütter</p>",0
-Großvater,"<span class=""der"">der</span><p class=""plural"">die Großväter</p>",0
-Haarbürste,"<span class=""die"">die</span><p class=""plural"">die Haarbürsten</p>",0
-Hauptspeise,"<span class=""die"">die</span><p class=""plural"">die Hauptspeisen</p>",0
-Heizung,"<span class=""die"">die</span><p class=""plural"">die Heizungen</p>",0
-Herkunft,"<span class=""die"">die</span><p class=""plural"">die Herkünfte</p>",0
-Hobby,"<span class=""das"">das</span><p class=""plural"">die Hobbys</p>",0
-Honig,"<span class=""der"">der</span><p class=""plural"">die Honige</p>",0
-Honigkuchen,"<span class=""der"">der</span><p class=""plural"">die Honigkuchen</p>",0
-Hotel,"<span class=""das"">das</span><p class=""plural"">die Hotels</p>",0
-Hunger,"<span class=""der"">der</span>",0
-Hütte,"<span class=""die"">die</span><p class=""plural"">die Hütten</p>",0
-Igel,"<span class=""der"">der</span><p class=""plural"">die Igel</p>",0
-Indonesier,"<span class=""der"">der</span><p class=""plural"">die Indonesier</p>",0
-Ingenieur,"<span class=""der"">der</span><p class=""plural"">die Ingenieure</p>",0
-Jacke,"<span class=""die"">die</span><p class=""plural"">die Jacken</p>",0
-Januar,"<span class=""der"">der</span><p class=""plural"">die Januare</p>",0
-Juni,"<span class=""der"">der</span><p class=""plural"">die Junis</p>",0
-Juwelier,"<span class=""der"">der</span><p class=""plural"">die Juweliere</p>",0
-Kamera,"<span class=""die"">die</span><p class=""plural"">die Kameras</p>",0
-Kapitalismus,"<span class=""der"">der</span><p class=""plural"">die Kapitalismen</p>",0
-Kartenlesegerät,"<span class=""das"">das</span><p class=""plural"">die Kartenlesegerät</p>",0
-Kartoffel,"<span class=""die"">die</span><p class=""plural"">die Kartoffeln</p>",0
-Kasse,"<span class=""die"">die</span><p class=""plural"">die Kassen</p>",0
-Kassiererin,"<span class=""die"">die</span><p class=""plural"">die Kassiererinnen</p>",0
-Kathedrale,"<span class=""die"">die</span><p class=""plural"">die Kathedralen</p>",0
-Kaufhaus,"<span class=""das"">das</span><p class=""plural"">die Kaufhäuser</p>",0
-Kaufhaus,"<span class=""das"">das</span><p class=""plural"">die Kaufhäuser</p>",0
-Kirche,"<span class=""die"">die</span><p class=""plural"">die Kirchen</p>",0
-Kirsche,"<span class=""die"">die</span><p class=""plural"">die Kirschen</p>",0
-kissen,"<span class=""das"">das</span><p class=""plural"">die Kissen</p>",0
-Klima,"<span class=""das"">das</span><p class=""plural"">die Klima(ta)(s)</p>",0
-Komma,"<span class=""das"">das</span><p class=""plural"">die Komma(ta)(s)</p>",0
-Kommunikation,"<span class=""die"">die</span><p class=""plural"">die Kommunikationen</p>",0
-König,"<span class=""der"">der</span><p class=""plural"">die Könige</p>",0
-Königreich,"<span class=""das"">das</span><p class=""plural"">die König(s)reiche</p>",0
-Kuchen,"<span class=""der"">der</span><p class=""plural"">die Kuchen</p>",0
-Kugel,"<span class=""die"">die</span><p class=""plural"">die Kugeln</p>",0
-Kultur,"<span class=""die"">die</span><p class=""plural"">die Kulturen</p>",0
-Kunde,"<span class=""der"">der</span><p class=""plural"">die Kunden</p>",0
-Kundin,"<span class=""die"">die</span><p class=""plural"">die Kundinnen</p>",0
-Künstler,"<span class=""der"">der</span><p class=""plural"">die Künstler</p>",0
-Kürbis,"<span class=""der"">der</span><p class=""plural"">die Kürbisse</p>",0
-Lampe,"<span class=""die"">die</span><p class=""plural"">die Lampen</p>",0
-Landschaft,"<span class=""die"">die</span><p class=""plural"">die Landschaften</p>",0
-Landschaft,"<span class=""die"">die</span><p class=""plural"">die Landschaften</p>",0
-Lehrerin,"<span class=""die"">die</span><p class=""plural"">die Lehrerinnen</p>",0
-Liebe,"<span class=""die"">die</span><p class=""plural"">die Lieben</p>",0
-Liga,"<span class=""die"">die</span><p class=""plural"">die Ligen</p>",0
-Likör,"<span class=""der"">der</span><p class=""plural"">die Liköre</p>",0
-Literatur,"<span class=""die"">die</span><p class=""plural"">die Literaturen</p>",0
-Mädchen,"<span class=""das"">das</span><p class=""plural"">die Mädchen</p>",0
-Maschine,"<span class=""die"">die</span><p class=""plural"">die Maschinen</p>",0
-Medikamente,"<span class=""das"">das</span><p class=""plural"">die Medikamente</p>",0
-Meer,"<span class=""das"">das</span><p class=""plural"">die Meere</p>",0
-Meeting,"<span class=""das"">das</span><p class=""plural"">die Meetings</p>",0
-Meinung,"<span class=""die"">die</span><p class=""plural"">die Meinungen</p>",0
-Metzgerei,"<span class=""die"">die</span><p class=""plural"">die Metzgereien</p>",0
-Metzgerei,"<span class=""die"">die</span><p class=""plural"">die Metzgereien</p>",0
-Mittwoch,"<span class=""der"">der</span><p class=""plural"">die Mittwoche</p>",0
-Möglichkeit,"<span class=""die"">die</span><p class=""plural"">die Möglichkeiten</p>",0
-Montag,"<span class=""der"">der</span><p class=""plural"">die Montage</p>",0
-Motor,"<span class=""der"">der</span><p class=""plural"">die Motore(n)</p>",0
-Museum,"<span class=""das"">das</span><p class=""plural"">die Museen</p>",0
-Musik,"<span class=""die"">die</span><p class=""plural"">die Musiken</p>",0
-Mutter,"<span class=""die"">die</span><p class=""plural"">die Mütter</p>",0
-Mutter,"<span class=""die"">die</span><p class=""plural"">die Mütter</p>",0
-Nachspeise,"<span class=""die"">die</span><p class=""plural"">die Nachspeisen</p>",0
-Nachtisch,"<span class=""der"">der</span><p class=""plural"">die Nachtische</p>",0
-Nase,"<span class=""die"">die</span><p class=""plural"">die Nasen</p>",0
-Natur,"<span class=""die"">die</span><p class=""plural"">die Naturen</p>",0
-Natur,"<span class=""die"">die</span><p class=""plural"">die Naturen</p>",0
-Neffe,"<span class=""der"">der</span><p class=""plural"">die Neffen</p>",0
-Nichte,"<span class=""die"">die</span><p class=""plural"">die Nichten</p>",0
-Nominativ,"<span class=""der"">der</span><p class=""plural"">die Nominative</p>",0
-Öffnungszeiten,"<span class=""die"">die</span><p class=""plural"">die Öffnungszeiten</p>",0
-Öl,"<span class=""das"">das</span><p class=""plural"">die Öle</p>",0
-Oma,"<span class=""die"">die</span><p class=""plural"">die Omas</p>",0
-Omelett,"<span class=""das"">das</span><p class=""plural"">die Omelette</p>",0
-Onkel,"<span class=""der"">der</span><p class=""plural"">die Onkel</p>",0
-Opa,"<span class=""der"">der</span><p class=""plural"">die Opas</p>",0
-Optimismus,"<span class=""der"">der</span>",0
-Palast,"<span class=""der"">der</span><p class=""plural"">die Paläste</p>",0
-Parade,"<span class=""die"">die</span><p class=""plural"">die Paraden</p>",0
-Party,"<span class=""die"">die</span><p class=""plural"">die Partys</p>",0
-Perspektive,"<span class=""die"">die</span><p class=""plural"">die Perspektiven</p>",0
-Physik,"<span class=""die"">die</span>",0
-Pianist,"<span class=""der"">der</span><p class=""plural"">die Pianisten</p>",0
-Preisschild,"<span class=""das"">das</span><p class=""plural"">die Preisschilder</p>",0
-Privatsphäre,"<span class=""die"">die</span>",0
-Produktion,"<span class=""die"">die</span><p class=""plural"">die Produktionen</p>",0
-Prozent,"<span class=""das"">das</span><p class=""plural"">die Prozente</p>",0
-Pünktlichkeit,"<span class=""die"">die</span>",0
-Putzmittel,"<span class=""das"">das</span><p class=""plural"">die Putzmittel</p>",0
-Qualität,"<span class=""die"">die</span><p class=""plural"">die Qualitäten</p>",0
-Qualität,"<span class=""die"">die</span><p class=""plural"">die Qualitäten</p>",0
-Quantität,"<span class=""die"">die</span><p class=""plural"">die Quantitäten</p>",0
-Radio,"<span class=""das"">das</span><p class=""plural"">die Radios</p>",0
-Rauch,"<span class=""der"">der</span>",0
-Redakteur,"<span class=""der"">der</span><p class=""plural"">die Redakteure</p>",0
-Regel,"<span class=""die"">die</span><p class=""plural"">die Regeln</p>",0
-Richtigkeit,"<span class=""die"">die</span>",0
-Romantiker,"<span class=""der"">der</span><p class=""plural"">die Romantiker</p>",0
-Saal,"<span class=""der"">der</span><p class=""plural"">die Säle</p>",0
-Sache,"<span class=""die"">die</span><p class=""plural"">die Sachen</p>",0
-Sahne,"<span class=""die"">die</span>",0
-Samstag,"<span class=""der"">der</span><p class=""plural"">die Samstage</p>",0
-Sand,"<span class=""der"">der</span><p class=""plural"">die Sande/Sände</p>",0
-Sauerkraut,"<span class=""das"">das</span>",0
-Schiff,"<span class=""das"">das</span><p class=""plural"">die Schiffe</p>",0
-Schloss,"<span class=""das"">das</span><p class=""plural"">die Schlösser</p>",0
-Schokolade,"<span class=""die"">die</span><p class=""plural"">die Schokoladen</p>",0
-Schuhe,"<span class=""der"">der</span><p class=""plural"">die Schuh(e)</p>",0
-Schuhladen,"<span class=""der"">der</span><p class=""plural"">die Schuhläden/Schuhladen</p>",0
-Schuhladen,"<span class=""der"">der</span><p class=""plural"">die Schuhläden/Schuhladen</p>",0
-Schülerin,"<span class=""die"">die</span><p class=""plural"">die Schülerinnen</p>",0
-Schwager,"<span class=""der"">der</span><p class=""plural"">die Schwäger</p>",0
-Schwägerin,"<span class=""die"">die</span><p class=""plural"">die Schwägerinnen</p>",0
-Schwester,"<span class=""die"">die</span><p class=""plural"">die Schwestern</p>",0
-Schwiegermutter,"<span class=""die"">die</span><p class=""plural"">die Schwiegermütter</p>",0
-Schwiegersohn,"<span class=""der"">der</span><p class=""plural"">die Schwiegersöhne</p>",0
-Schwiegertochter,"<span class=""die"">die</span><p class=""plural"">die Schwiegertöchter</p>",0
-Schwiegervater,"<span class=""der"">der</span><p class=""plural"">die Schwiegerväter</p>",0
-See,"<span class=""die"">die</span><p class=""plural"">die Seen</p>",0
-Serie,"<span class=""die"">die</span><p class=""plural"">die Serien</p>",0
-Skepsis,"<span class=""die"">die</span>",0
-Sofa,"<span class=""das"">das</span><p class=""plural"">die Sofas</p>",0
-Sohn,"<span class=""der"">der</span><p class=""plural"">die Söhne</p>",0
-Sonne,"<span class=""die"">die</span><p class=""plural"">die Sonnen</p>",0
-Sonntag,"<span class=""der"">der</span><p class=""plural"">die Sonntage</p>",0
-Soße,"<span class=""die"">die</span><p class=""plural"">die Soßen</p>",0
-Spaß,"<span class=""der"">der</span><p class=""plural"">die Späße</p>",0
-Spezialität,"<span class=""die"">die</span><p class=""plural"">die Spezialitäten</p>",0
-Sport,"<span class=""der"">der</span><p class=""plural"">die Sporte</p>",0
-Sprache,"<span class=""die"">die</span><p class=""plural"">die Sprachen</p>",0
-Student,"<span class=""der"">der</span><p class=""plural"">die Studenten</p>",0
-Stuhl,"<span class=""der"">der</span><p class=""plural"">die Stühle</p>",0
-Supermarkt,"<span class=""der"">der</span><p class=""plural"">die Supermärkte</p>",0
-Supermarkt,"<span class=""der"">der</span><p class=""plural"">die Supermärkte</p>",0
-Suppe,"<span class=""die"">die</span><p class=""plural"">die Suppen</p>",0
-Sympathie,"<span class=""die"">die</span><p class=""plural"">die Sympathien</p>",0
-Tankstelle,"<span class=""die"">die</span><p class=""plural"">die Tankstellen</p>",0
-Tante,"<span class=""die"">die</span><p class=""plural"">die Tanten</p>",0
-Tanz,"<span class=""der"">der</span><p class=""plural"">die Tänze</p>",0
-Teller,"<span class=""der"">der</span><p class=""plural"">die Teller</p>",0
-Theorie,"<span class=""die"">die</span><p class=""plural"">die Theorien</p>",0
-Tier,"<span class=""das"">das</span><p class=""plural"">die Tiere</p>",0
-Tochter,"<span class=""die"">die</span><p class=""plural"">die Töchter</p>",0
-Toilette,"<span class=""die"">die</span><p class=""plural"">die Toiletten</p>",0
-Torte,"<span class=""die"">die</span><p class=""plural"">die Torten</p>",0
-Treppe,"<span class=""die"">die</span><p class=""plural"">die Treppen</p>",0
-Turnschuhe,"<span class=""der"">der</span><p class=""plural"">die Turnschuh(e)</p>",0
-Übung,"<span class=""die"">die</span><p class=""plural"">die Übungen</p>",0
-Ufer,"<span class=""das"">das</span><p class=""plural"">die Ufer</p>",0
-Vater,"<span class=""der"">der</span><p class=""plural"">die Väter</p>",0
-Viertel,"<span class=""das"">das</span><p class=""plural"">die Viertel</p>",0
-Vogel,"<span class=""der"">der</span><p class=""plural"">die Vögel</p>",0
-Vollholzhaus,"<span class=""das"">das</span><p class=""plural"">die Vollholzhäuser</p>",0
-Vorspeise,"<span class=""die"">die</span><p class=""plural"">die Vorspeisen</p>",0
-Wappen,"<span class=""das"">das</span><p class=""plural"">die Wappen</p>",0
-Weißbrot,"<span class=""das"">das</span><p class=""plural"">die Weißbrote</p>",0
-Werktag,"<span class=""der"">der</span><p class=""plural"">die Werktage</p>",0
-Wirtschaft,"<span class=""die"">die</span><p class=""plural"">die Wirtschaften</p>",0
-Wochenende,"<span class=""das"">das</span><p class=""plural"">die Wochenenden</p>",0
-Wochenmarkt,"<span class=""der"">der</span><p class=""plural"">die Wochenmärkte</p>",0
-Wochentag,"<span class=""der"">der</span><p class=""plural"">die Wochentage</p>",0
-Wochentage,"<span class=""der"">der</span><p class=""plural"">die Wochentage</p>",0
-Wohnort,"<span class=""der"">der</span><p class=""plural"">die Wohnorte/Wohnörter</p>",0
-Wolke,"<span class=""die"">die</span><p class=""plural"">die Wolken</p>",0
-Wort,"<span class=""das"">das</span><p class=""plural"">die Wörter/Worte</p>",0
-Wort,"<span class=""das"">das</span><p class=""plural"">die Wörter/Worte</p>",0
-Yacht,"<span class=""die"">die</span><p class=""plural"">die Yachten</p>",0
-Zahl,"<span class=""die"">die</span><p class=""plural"">die Zahlen</p>",0
-Zahn,"<span class=""der"">der</span><p class=""plural"">die Zähne</p>",0
-Zebra,"<span class=""das"">das</span><p class=""plural"">die Zebras</p>",0
-Zentrum,"<span class=""das"">das</span><p class=""plural"">die Zentren</p>",0
-Zigarette,"<span class=""die"">die</span><p class=""plural"">die Zigaretten</p>",0
-Zigaretten,"<span class=""die"">die</span><p class=""plural"">die Zigaretten</p>",0
-Zoo,"<span class=""der"">der</span><p class=""plural"">die Zoos</p>",0
-Zuschauer,"<span class=""der"">der</span><p class=""plural"">die Zuschauer</p>",0
-Zwilling,"<span class=""der"">der</span><p class=""plural"">die Zwillinge</p>",0
+Abschnitt,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Abschnitte</div>",0
+Agent,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Agenten</div>",0
+Ähnlichkeit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Ähnlichkeiten</div>",0
+Alphabet,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Alphabete</div>",0
+Alter,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Alter</div>",0
+Alternative,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Alternativen</div>",0
+Amt,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Ämter</div>",0
+Ananas,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Ananas(se)</div>",0
+Angebot,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Angebote</div>",0
+Antwort,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Antworten</div>",0
+Apotheke,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Apotheken</div>",0
+Arbeit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Arbeiten</div>",0
+Ärger,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Art,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Arten</div>",0
+Arzt,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Ärzte</div>",0
+Arztpraxis,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Arztpraxen</div>",0
+Aussprache,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Aussprachen</div>",0
+Auto,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Autos</div>",0
+Babywindel,"<div class=""not found line"">not found</div><div class=""line-break""></div><div class=""plural line"">die not found</div>",0
+Bächlein,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Bächlein</div>",0
+Bäckerei,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Bäckereien</div>",0
+Bäckerei,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Bäckereien</div>",0
+Bäckerei,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Bäckereien</div>",0
+Banane,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Bananen</div>",0
+Bank,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Bänke</div>",0
+baüm,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Bäume</div>",0
+Baumarkt,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Baumärkte</div>",0
+Benzin,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Benzine</div>",0
+Beruf,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Berufe</div>",0
+Bett,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Betten</div>",0
+Bewusstsein,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Bewusstseine</div>",0
+Bleistift,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Bleistifte</div>",0
+Blondine,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Blondinen</div>",0
+Boot,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Boote</div>",0
+Brot,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Brote</div>",0
+Bruder,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Brüder</div>",0
+Buch,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Bücher</div>",0
+Bücherei,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Büchereien</div>",0
+Buddhist,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Buddhisten</div>",0
+Bundesland,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Bundesländer/Bundeslande</div>",0
+Chemiker,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Chemiker</div>",0
+Chor,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Chore/Chöre</div>",0
+Cousin,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Cousins</div>",0
+Cousine,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Cousinen</div>",0
+Datum,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Daten</div>",0
+Denker,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Denker</div>",0
+Dessert,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Desserts</div>",0
+Dichter,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Dichter</div>",0
+Dieb,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Diebe</div>",0
+Dienstag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Dienstage</div>",0
+Ding,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Dinge</div>",0
+Discounter,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Discounter</div>",0
+Dom,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Dome</div>",0
+Donnerstag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Donnerstage</div>",0
+Dosis,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Dosen</div>",0
+Drama,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Dramen</div>",0
+Drogerie,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Drogerien</div>",0
+Ei,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Eier</div>",0
+Eigentum,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Eigentume</div>",0
+Einkäufe,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Einkäufe</div>",0
+Einkaufswagen,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Einkaufswagen/Einkaufswägen</div>",0
+Einwohnerzahl,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Einwohnerzahlen</div>",0
+Element,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Elemente</div>",0
+Essen,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Essen</div>",0
+Experiment,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Experimente</div>",0
+Fachwerkhaus,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Fachwerkhäuser</div>",0
+Fähre,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Fähren</div>",0
+Familie,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Familien</div>",0
+Farbe,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Farben</div>",0
+Fenster,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Fenster</div>",0
+Fläschchen,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Fläschchen</div>",0
+Fleisch,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Fleische</div>",0
+Flohmarkt,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Flohmärkte</div>",0
+Fräulein,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Fräulein(s)</div>",0
+Freiheit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Freiheiten</div>",0
+Freitag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Freitage</div>",0
+Frisör,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Frisöre</div>",0
+Frühling,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Frühlinge</div>",0
+Füllung,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Füllungen</div>",0
+Füß,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Füße</div>",0
+Gast,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Gäste</div>",0
+Geldbeutel,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Geldbeutel</div>",0
+Gemüse,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Gemüse</div>",0
+Geräusch,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Geräusche</div>",0
+Geschäft,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Geschäfte</div>",0
+Geschlecht,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Geschlechter</div>",0
+Gesundheit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Gesundheiten</div>",0
+Getränke,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Getränke</div>",0
+Gewitter,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Gewitter</div>",0
+Glück,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Glücke</div>",0
+Großbuchstabe,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Großbuchstaben</div>",0
+Großmutter,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Großmütter</div>",0
+Großvater,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Großväter</div>",0
+Haarbürste,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Haarbürsten</div>",0
+Hauptspeise,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Hauptspeisen</div>",0
+Heizung,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Heizungen</div>",0
+Herkunft,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Herkünfte</div>",0
+Hobby,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Hobbys</div>",0
+Honig,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Honige</div>",0
+Honigkuchen,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Honigkuchen</div>",0
+Hotel,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Hotels</div>",0
+Hunger,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Hütte,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Hütten</div>",0
+Igel,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Igel</div>",0
+Indonesier,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Indonesier</div>",0
+Ingenieur,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Ingenieure</div>",0
+Jacke,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Jacken</div>",0
+Januar,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Januare</div>",0
+Juni,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Junis</div>",0
+Juwelier,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Juweliere</div>",0
+Kamera,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kameras</div>",0
+Kapitalismus,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Kapitalismen</div>",0
+Kartenlesegerät,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Kartenlesegerät</div>",0
+Kartoffel,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kartoffeln</div>",0
+Kasse,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kassen</div>",0
+Kassiererin,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kassiererinnen</div>",0
+Kathedrale,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kathedralen</div>",0
+Kaufhaus,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Kaufhäuser</div>",0
+Kirche,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kirchen</div>",0
+Kirsche,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kirschen</div>",0
+Kissen,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Kissen</div>",0
+Klima,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Klima(ta)(s)</div>",0
+Komma,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Komma(ta)(s)</div>",0
+Kommunikation,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kommunikationen</div>",0
+König,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Könige</div>",0
+Königreich,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die König(s)reiche</div>",0
+Kuchen,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Kuchen</div>",0
+Kugel,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kugeln</div>",0
+Kultur,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kulturen</div>",0
+Kunde,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Kunden</div>",0
+Kundin,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Kundinnen</div>",0
+Künstler,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Künstler</div>",0
+Kürbis,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Kürbisse</div>",0
+Lampe,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Lampen</div>",0
+Landschaft,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Landschaften</div>",0
+Lehrerin,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Lehrerinnen</div>",0
+Liebe,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Lieben</div>",0
+Liga,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Ligen</div>",0
+Likör,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Liköre</div>",0
+Literatur,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Literaturen</div>",0
+Mädchen,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Mädchen</div>",0
+Maschine,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Maschinen</div>",0
+Medikamente,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Medikamente</div>",0
+Meer,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Meere</div>",0
+Meeting,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Meetings</div>",0
+Meinung,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Meinungen</div>",0
+Metzgerei,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Metzgereien</div>",0
+Mittwoch,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Mittwoche</div>",0
+Möglichkeit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Möglichkeiten</div>",0
+Montag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Montage</div>",0
+Motor,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Motore(n)</div>",0
+Museum,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Museen</div>",0
+Musik,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Musiken</div>",0
+Mutter,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Mütter</div>",0
+Nachspeise,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Nachspeisen</div>",0
+Nachtisch,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Nachtische</div>",0
+Nase,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Nasen</div>",0
+Natur,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Naturen</div>",0
+Neffe,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Neffen</div>",0
+Nichte,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Nichten</div>",0
+Nominativ,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Nominative</div>",0
+Öffnungszeit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Öffnungszeiten</div>",0
+Öl,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Öle</div>",0
+Oma,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Omas</div>",0
+Omelett,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Omelette</div>",0
+Onkel,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Onkel</div>",0
+Opa,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Opas</div>",0
+Optimismus,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Palast,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Paläste</div>",0
+Parade,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Paraden</div>",0
+Party,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Partys</div>",0
+Perspektive,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Perspektiven</div>",0
+Physik,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Pianist,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Pianisten</div>",0
+Preisschild,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Preisschilder</div>",0
+Privatsphäre,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Produktion,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Produktionen</div>",0
+Prozent,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Prozente</div>",0
+Pünktlichkeit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Putzmittel,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Putzmittel</div>",0
+Qualität,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Qualitäten</div>",0
+Quantität,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Quantitäten</div>",0
+Radio,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Radios</div>",0
+Rauch,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Redakteur,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Redakteure</div>",0
+Regel,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Regeln</div>",0
+Richtigkeit,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Romantiker,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Romantiker</div>",0
+Saal,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Säle</div>",0
+Sache,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Sachen</div>",0
+Sahne,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Samstag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Samstage</div>",0
+Sand,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Sande/Sände</div>",0
+Sauerkraut,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Schiff,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Schiffe</div>",0
+Schloss,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Schlösser</div>",0
+Schokolade,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Schokoladen</div>",0
+Schuhe,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Schuh(e)</div>",0
+Schuhladen,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Schuhläden/Schuhladen</div>",0
+Schülerin,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Schülerinnen</div>",0
+Schwager,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Schwäger</div>",0
+Schwägerin,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Schwägerinnen</div>",0
+Schwester,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Schwestern</div>",0
+Schwiegermutter,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Schwiegermütter</div>",0
+Schwiegersohn,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Schwiegersöhne</div>",0
+Schwiegertochter,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Schwiegertöchter</div>",0
+Schwiegervater,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Schwiegerväter</div>",0
+See,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Seen</div>",0
+Serie,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Serien</div>",0
+Skepsis,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">-</div>",0
+Sofa,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Sofas</div>",0
+Sohn,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Söhne</div>",0
+Sonne,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Sonnen</div>",0
+Sonntag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Sonntage</div>",0
+Soße,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Soßen</div>",0
+Spaß,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Späße</div>",0
+Spezialität,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Spezialitäten</div>",0
+Sport,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Sporte</div>",0
+Sprache,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Sprachen</div>",0
+Student,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Studenten</div>",0
+Stuhl,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Stühle</div>",0
+Supermarkt,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Supermärkte</div>",0
+Suppe,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Suppen</div>",0
+Sympathie,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Sympathien</div>",0
+Tankstelle,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Tankstellen</div>",0
+Tante,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Tanten</div>",0
+Tanz,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Tänze</div>",0
+Teller,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Teller</div>",0
+Theorie,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Theorien</div>",0
+Tier,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Tiere</div>",0
+Tochter,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Töchter</div>",0
+Toilette,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Toiletten</div>",0
+Torte,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Torten</div>",0
+Treppe,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Treppen</div>",0
+Turnschuhe,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Turnschuh(e)</div>",0
+Übung,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Übungen</div>",0
+Ufer,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Ufer</div>",0
+Vater,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Väter</div>",0
+Viertel,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Viertel</div>",0
+Vogel,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Vögel</div>",0
+Vollholzhaus,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Vollholzhäuser</div>",0
+Vorspeise,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Vorspeisen</div>",0
+Wappen,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Wappen</div>",0
+Weißbrot,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Weißbrote</div>",0
+Werktag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Werktage</div>",0
+Wirtschaft,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Wirtschaften</div>",0
+Wochenende,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Wochenenden</div>",0
+Wochenmarkt,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Wochenmärkte</div>",0
+Wochentag,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Wochentage</div>",0
+Wohnort,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Wohnorte/Wohnörter</div>",0
+Wolke,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Wolken</div>",0
+Wort,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Wörter/Worte</div>",0
+Yacht,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Yachten</div>",0
+Zahl,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Zahlen</div>",0
+Zahn,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Zähne</div>",0
+Zebra,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Zebras</div>",0
+Zentrum,"<div class=""das line"">das</div><div class=""line-break""></div><div class=""plural line"">die Zentren</div>",0
+Zigarette,"<div class=""die line"">die</div><div class=""line-break""></div><div class=""plural line"">die Zigaretten</div>",0
+Zoo,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Zoos</div>",0
+Zuschauer,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Zuschauer</div>",0
+Zwilling,"<div class=""der line"">der</div><div class=""line-break""></div><div class=""plural line"">die Zwillinge</div>",0
