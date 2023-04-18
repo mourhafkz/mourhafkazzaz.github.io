@@ -109,9 +109,14 @@ $(document).ready(function () {
                 $('#back').html('<div class="p_area">' + random_entry.solution + "</div>");
 
             }
-            else {
+            else if (filename == articles) {
+
                 $('#front').html('<p>' + random_entry.task + '</p>');
                 $('#back').html(random_entry.solution);
+            }
+            else {
+                $('#front').html('<p>' + random_entry.task + '</p>');
+                $('#back').html('<p>' + random_entry.solution + '</p>');
             }
 
         }
