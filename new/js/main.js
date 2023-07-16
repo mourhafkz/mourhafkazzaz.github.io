@@ -14,3 +14,16 @@ $(document).on('click', '.topForm-btn', function (e) {
     }
 });
 
+
+
+
+$(document).on('click', '.video-link', function (e) {
+    const videoSource = $(this).attr('data-src')
+
+    $('#demo-area').slideUp(400, function () {
+        $('.video').attr('src', videoSource)
+    });
+    $('#demo-area').slideDown(400)
+
+
+})

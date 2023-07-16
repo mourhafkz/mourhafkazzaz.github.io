@@ -96,7 +96,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .center_row {
@@ -159,7 +159,12 @@ img {
         flex-direction: col;
         gap: 3rem;
     }
+
+
 }
+
+
+
 
 .title_dot {
     color: var(--white);
@@ -322,7 +327,7 @@ img {
 
 
 .offer-bg {
-    background: rgb(213, 213, 213);
+    background: rgb(227, 227, 227);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -354,4 +359,82 @@ img {
         opacity: 1;
     }
 
+}
+
+/* ____________ subscriptions end___________________ */
+
+.video {
+    max-height: 400px;
+}
+
+
+/* ____________ list of exercises with videos ___________________ */
+
+.rectangle-list {
+    list-style-type: none;
+    _padding: 5em;
+    width: 80%;
+    display: inline-block;
+}
+
+@media (max-width: 50em) {
+    .rectangle-list {
+        list-style-type: none;
+        width: 50%;
+    }
+
+    .video {
+        height: 60%;
+    }
+}
+
+.rectangle-list li {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    border-radius: 5%;
+}
+
+.rectangle-list li:hover {
+    background: #3b77bc;
+    color: white;
+}
+
+.rectangle-list li:before {
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #3b77bc;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.rectangle-list li:after {
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.rectangle-list li:hover:after {
+    left: -.5em;
+    border-left-color: #3b77bc;
+}
+
+.minimum-height {
+    min-height: 406px;
 }
