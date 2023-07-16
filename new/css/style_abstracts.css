@@ -325,3 +325,8 @@ body {
 .footer-nav a:is(:hover, :focus) {
     color: var(--tu-navy);
 }
+
+.booking {
+    padding-left: 4%;
+    line-height: 1.9;
+}
