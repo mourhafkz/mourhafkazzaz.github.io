@@ -318,10 +318,10 @@ body {
 }
 
 .footer-nav a {
-    color: var(--clr-second);
+    color: var(--tu-red);
     text-decoration: none;
 }
 
 .footer-nav a:is(:hover, :focus) {
-    color: var(--clr-first);
+    color: var(--tu-navy);
 }
