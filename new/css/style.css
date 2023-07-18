@@ -276,11 +276,12 @@ img {
 .offer-front {
     transition: 250ms;
 
-    .thumbnail {
-        border-radius: .5em;
-    }
+
 }
 
+.offer-front .thumbnail {
+    border-radius: .5em;
+}
 
 .offer-back {
     opacity: 0;
@@ -294,37 +295,35 @@ img {
     gap: .5rem;
 }
 
-.offer-back {
 
-    .offer-info {
-        columns: 2;
-        column-rule: 1px solid rgba(255, 255, 255, 0.25);
-    }
 
-    .offer-details {
-        font-size: 1em;
-        text-align: center;
+.offer-back .offer-info {
+    columns: 2;
+    column-rule: 1px solid rgba(255, 255, 255, 0.25);
+}
 
-        span {
-            display: block;
-            font-size: .5em;
-        }
-    }
-
-    .btn {
-        cursor: pointer;
-        border: 0;
-        background: var(--clr-luna-yellow);
-        border-radius: 100vw;
-        color: var(--clr-light);
-        padding: .5rem;
-        margin-top: 1rem;
-        font-weight: bold;
-        border-radius: 0.5em;
-    }
+.offer-back .offer-details {
+    font-size: 1em;
+    text-align: center;
 
 }
 
+.offer-back .offer-details span {
+    display: block;
+    font-size: .5em;
+}
+
+.offer-back .btn {
+    cursor: pointer;
+    border: 0;
+    background: var(--clr-luna-yellow);
+    border-radius: 100vw;
+    color: var(--clr-light);
+    padding: .5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
 
 .offer-bg {
     background: rgb(227, 227, 227);
@@ -340,25 +339,24 @@ img {
     transition: transform 250ms ease-in-out, opacity 100ms linear;
 }
 
-.offer-card:hover {
-    .offer-best {
-        transform: translate(84%, -59%);
-    }
 
-    .offer-front {
-        transform: translateY(-70%) scale(.8);
-    }
 
-    .offer-bg {
+.offer-card:hover .offer-best {
+    transform: translate(84%, -59%);
+}
 
-        opacity: 1;
-        transform: scale(1.4);
-    }
+.offer-card:hover .offer-front {
+    transform: translateY(-70%) scale(.8);
+}
 
-    .offer-back {
-        opacity: 1;
-    }
+.offer-card:hover .offer-bg {
 
+    opacity: 1;
+    transform: scale(1.4);
+}
+
+.offer-card:hover .offer-back {
+    opacity: 1;
 }
 
 /* ____________ subscriptions end___________________ */
@@ -380,12 +378,13 @@ img {
 @media (max-width: 50em) {
     .rectangle-list {
         list-style-type: none;
-        width: 50%;
+        width: 80%;
     }
 
     .video {
-        height: 60%;
+        height: 50%;
     }
+
 }
 
 .rectangle-list li {
@@ -393,7 +392,7 @@ img {
     position: relative;
     display: block;
     padding: .4em .4em .4em .8em;
-    margin: .5em 0 .5em 2.5em;
+    margin: .5em 0 .5em 1.5em;
     background: #ddd;
     color: #444;
     text-decoration: none;
