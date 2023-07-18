@@ -7,6 +7,72 @@ img {
     width: 100%;
     max-width: 1200px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topForm form {
+    padding: 60px 80px 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    position: relative;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.inputBox input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+
+.inputBox input:focus,
+.inputBox input:valid {
+    border-bottom: 2px solid var(--tu-red);
+}
+
+.inputBox input[type="submit"] {
+    background: var(--tu-red);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.inputBox input[type="submit"]:hover {
+    letter-spacing: 0.35em;
+}
+
+.topForm form p {
+    color: #fff;
+}
+
+.topForm form p a {
+    color: var(--tu-red);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.topForm form p a:hover {
+    color: #fff;
+    font-weight: 500;
 }
 
 .topForm-header {
@@ -271,12 +337,8 @@ img {
     transition: transform 250ms ease-in-out;
 }
 
-
-
 .offer-front {
     transition: 250ms;
-
-
 }
 
 .offer-front .thumbnail {
@@ -295,8 +357,6 @@ img {
     gap: .5rem;
 }
 
-
-
 .offer-back .offer-info {
     columns: 2;
     column-rule: 1px solid rgba(255, 255, 255, 0.25);
@@ -305,7 +365,6 @@ img {
 .offer-back .offer-details {
     font-size: 1em;
     text-align: center;
-
 }
 
 .offer-back .offer-details span {
