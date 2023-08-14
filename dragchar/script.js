@@ -3,7 +3,9 @@ const landing = document.querySelector('.landing')
 
 strokes.forEach(stroke => {
     stroke.addEventListener('dragstart', dragStart)
+    stroke.addEventListener('touchstart', dragStart)
     stroke.addEventListener('dragend', dragEnd)
+    stroke.addEventListener('touchend', dragEnd)
 });
 
 landing.addEventListener('dragover', dragOver)
