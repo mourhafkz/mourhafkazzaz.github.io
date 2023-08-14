@@ -10,6 +10,7 @@ strokes.forEach(stroke => {
 
 landing.addEventListener('dragover', dragOver)
 landing.addEventListener('drop', dragDrop)
+landing.addEventListener('touchmove', dragDrop)
 
 let draggedItem;
 let counter = 0;
