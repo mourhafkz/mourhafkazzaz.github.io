@@ -15,9 +15,11 @@ let draggedItem;
 let counter = 0;
 
 function dragStart(e) {
+
     draggedItem = e.target.parentElement;
     $("#" + draggedItem.id).children().addClass("dragged")
     $("#" + landing.id).addClass("landing_notification")
+
 }
 
 function dragEnd(e) {
@@ -127,3 +129,8 @@ $(document).on('click', '#valid', function () {
 
 
 })
+
+$(document).on('contextmenu', function (e) {
+    // stop long touch hold from poping up context menus
+    return false;
+});
