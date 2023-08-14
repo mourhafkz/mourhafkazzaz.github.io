@@ -3,6 +3,7 @@ const landing = document.querySelector('.landing')
 
 strokes.forEach(stroke => {
     stroke.addEventListener('dragstart', dragStart)
+    stroke.addEventListener('dragend', dragEnd)
 });
 
 landing.addEventListener('dragover', dragOver)
@@ -13,7 +14,16 @@ let counter = 0;
 
 function dragStart(e) {
     draggedItem = e.target.parentElement;
+    $("#" + draggedItem.id).children().addClass("dragged")
+    $("#" + landing.id).addClass("landing_notification")
 }
+
+function dragEnd(e) {
+    $("#" + draggedItem.id).children().removeClass("dragged")
+    $("#" + landing.id).removeClass("landing_notification")
+}
+
+
 function dragDrop(e) {
     if (e.target.id === "landing") {
         landing.append(draggedItem)
@@ -28,6 +38,7 @@ function dragDrop(e) {
     else {
         console.log("dropped outside")
     }
+    // $("#" + draggedItem.id).children().removeClass("dragged")
 }
 function dragOver(e) {
     e.preventDefault()
@@ -37,6 +48,7 @@ function dragOver(e) {
 $(document).on('mouseover', '.order', function () {
     let related_stroke = $(this).data('rel')
     $("#" + related_stroke).children().addClass("filter-blue")
+
 })
 $(document).on('mouseleave', '.order', function () {
     let related_stroke = $(this).data('rel')
@@ -69,6 +81,12 @@ const findBreakingElement = arr => {
     return false;
 }
 
+function isAscending(arr) {
+    return arr.every(function (x, i) {
+        return i === 0 || x >= arr[i - 1];
+    });
+}
+
 $(document).on('click', '#valid', function () {
     var listItems = []
     var numItems = $('.stroke').length
@@ -79,8 +97,13 @@ $(document).on('click', '#valid', function () {
 
     el = findBreakingElement(listItems)
 
+
+
+
+
     if (el != false) {
         correct = listItems.splice(0, listItems.indexOf(el));
+
         for (var j = 0; j < listItems.length; j++) {
             $("#stroke-" + listItems[j]).addClass("filter-red")
         }
@@ -89,9 +112,15 @@ $(document).on('click', '#valid', function () {
         }
     }
     else {
+        color = "filter-green"
+        if (!isAscending(listItems)) color = "filter-red"
+
         for (var j = 0; j < listItems.length; j++) {
-            $("#stroke-" + listItems[j]).addClass("filter-green")
+            $("#stroke-" + listItems[j]).addClass(color)
         }
+
+
+
     }
 
 

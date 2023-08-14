@@ -23,7 +23,7 @@ body {
 .options img {
     height: 100px;
     width: 100px;
-    border: 1px solid;
+    /* border: 1px solid; */
     cursor: pointer;
 
 }
@@ -38,7 +38,11 @@ body {
     height: 200px;
     width: 200px;
     background: #e8e8e8;
+}
 
+.landing_notification {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='gray' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    display: inline-block;
 }
 
 .landing img {
@@ -81,4 +85,9 @@ body {
 
 .filter-blue {
     filter: invert(99%) sepia(75%) saturate(6664%) hue-rotate(141deg) brightness(92%) contrast(88%);
+}
+
+.dragged {
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
 }
