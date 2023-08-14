@@ -1,0 +1,98 @@
+const strokes = document.querySelectorAll('.stroke')
+const landing = document.querySelector('.landing')
+
+strokes.forEach(stroke => {
+    stroke.addEventListener('dragstart', dragStart)
+});
+
+landing.addEventListener('dragover', dragOver)
+landing.addEventListener('drop', dragDrop)
+
+let draggedItem;
+let counter = 0;
+
+function dragStart(e) {
+    draggedItem = e.target.parentElement;
+}
+function dragDrop(e) {
+    if (e.target.id === "landing") {
+        landing.append(draggedItem)
+        counter++;
+        $('.order-area').append("<p class='order' data-rel= '" + draggedItem.id + "'>" + counter + "</p>")
+    }
+    else if (e.target.className === "stroke" || draggedItem.className === "stroke") {
+        landing.append(draggedItem)
+        counter++;
+        $('.order-area').append("<p class='order' data-rel= '" + draggedItem.id + "'>" + counter + "</p>")
+    }
+    else {
+        console.log("dropped outside")
+    }
+}
+function dragOver(e) {
+    e.preventDefault()
+}
+
+
+$(document).on('mouseover', '.order', function () {
+    let related_stroke = $(this).data('rel')
+    $("#" + related_stroke).children().addClass("filter-blue")
+})
+$(document).on('mouseleave', '.order', function () {
+    let related_stroke = $(this).data('rel')
+    $("#" + related_stroke).children().removeClass("filter-blue")
+})
+
+$(document).on('click', '#reset', function () {
+    let strokes = document.querySelectorAll('.stroke')
+    let options = document.querySelector('.options')
+
+    strokes.forEach(stroke => {
+        // console.log(stroke)
+        options.append(stroke)
+
+    });
+    counter = 0;
+    $('.order-area').empty()
+    $('.stroke').removeClass('filter-green')
+    $('.stroke').removeClass('filter-red')
+})
+
+//finds the first non-incrementing element
+const findBreakingElement = arr => {
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] - arr[i - 1] > 1) {
+            return arr[i]
+        }
+    }
+
+    return false;
+}
+
+$(document).on('click', '#valid', function () {
+    var listItems = []
+    var numItems = $('.stroke').length
+    $(".stroke").each(function () {
+        listItems.push(parseInt($(this).attr("id").substring(7, 20)))
+    });
+
+
+    el = findBreakingElement(listItems)
+
+    if (el != false) {
+        correct = listItems.splice(0, listItems.indexOf(el));
+        for (var j = 0; j < listItems.length; j++) {
+            $("#stroke-" + listItems[j]).addClass("filter-red")
+        }
+        for (var j = 0; j < correct.length; j++) {
+            $("#stroke-" + correct[j]).addClass("filter-green")
+        }
+    }
+    else {
+        for (var j = 0; j < listItems.length; j++) {
+            $("#stroke-" + listItems[j]).addClass("filter-green")
+        }
+    }
+
+
+})

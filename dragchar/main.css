@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+}
+
+.options,
+.landing-container,
+.options-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    height: 100px;
+}
+
+.options img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    cursor: pointer;
+
+}
+
+
+.landing-container {
+    position: relative;
+}
+
+
+.landing {
+    height: 200px;
+    width: 200px;
+    background: #e8e8e8;
+
+}
+
+.landing img {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+
+}
+
+
+.order-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.order,
+.btn {
+    background: #e8e8e8;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #deb8b8;
+}
+
+.order:hover {
+    background: #4adede;
+}
+
+.filter-green {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.filter-red {
+    filter: invert(35%) sepia(92%) saturate(7454%) hue-rotate(359deg) brightness(87%) contrast(137%);
+}
+
+.filter-blue {
+    filter: invert(99%) sepia(75%) saturate(6664%) hue-rotate(141deg) brightness(92%) contrast(88%);
+}
