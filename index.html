@@ -1,50 +1,107 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mourhaf Kazzaz - Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+  </head>
+  
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
 
-<head>
-	<title></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-</head>
+    <div class="bg_container"></div>
 
-<body>
-	<div class="header">
-		<h1 class="header">Strokes in the correct order</h1>
-		<div class="generate-box">
-			<input type="text" name="generate" id="generate-text" class="generate-text" value="汉" autofocus>
-			<input type="button" class="generate" id="generate" value="Generate">
-		</div>
-	</div>
+    <div class="container">
 
-	<div class="major">
-		<div class="container">
-			<div class="hints">
+      <div class="left_panel">
+        <div class="profileText">
+          <div class="imgBox">
+            <img src="img/profile.jpg" alt="profileImage" />
+          </div>
+          <h2 >Mourhaf Kazzaz</h2>
+          <h3 class="animated rubberBand score">Computational Linguist</h3>
+        </div>
 
-			</div>
-			<hr>
-			<div class="options" id="options">
+        <div class="navigation">
+          <ul>
+              <li class="list" data-url="templates/info.html"><a href="#" class = "nav_link" data-text="&nbsp;Information" >&nbsp;Information</a></li>
+              <li class="list" data-url="templates/edu.html"><a href="#" class = "nav_link" data-text="&nbsp;Education">&nbsp;Education</a></li>
+            <li class="list" data-url="templates/exp.html"><a href="#" class = "nav_link" data-text="&nbsp;Experience">&nbsp;Experience</a></li>
+            <li class="list" data-url="templates/proj.html"><a href="#" class = "nav_link" data-text="&nbsp;Projects">&nbsp;Projects</a></li>
+            <li class="list" data-url="templates/skills.html"><a href="#" class = "nav_link" data-text="&nbsp;Skills">&nbsp;Skills</a></li>
 
-			</div>
-			<hr>
-			<div class="landing-container">
-				<div class="landing" id="landing"></div>
-			</div>
+          </ul>
+        </div>
 
-			<div class="options-btns">
-				<p class="btn" id="hint">Hint</p>
-				<p class="btn" id="reset">Reset</p>
-				<p class="btn" id="valid">Validate</p>
-			</div>
-			<div class="order-area">
-			</div>
+      </div>
+      <div class="right_panel" id="content">    
+        
+        
+      </div>
+      
+      <div class="popup">
+        <h2 class="message">message</h2>
+        <b class="close">X</b>
+      </div>
+      
 
-		</div>
-	</div>
-	<script type="module" src="functions.js"></script>
-	<script type="module" src="dndScript.js"></script>
 
-</body>
 
+    
+      
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/icon_game.js"></script>
+    
+    <script>
+
+        // when the document is loaded
+        $(document).ready(function(){
+            score = 0
+            reset = 0
+              // load info section and activate links after page ready
+             $('#content').load("templates/info.html");
+             $('.list').first().addClass('active').children().addClass('active');
+
+
+              // navigation clicks
+             $('.list').on('click',function(e){
+              
+             // remove all active classes
+                $('.list').each(function(i, obj) {
+                    $(this).removeClass('active').children().removeClass("active");
+                  })
+            // activate link for style and li for indentation
+              $(this).addClass('active').children().addClass("active");;
+                // load the template into content div
+                url = $(this).attr("data-url");
+                $('#content').load(url);
+                e.preventDefault();
+                });
+
+        }); 
+      </script>
 </html>
