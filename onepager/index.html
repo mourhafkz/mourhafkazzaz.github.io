@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <h1>DLTPT Status</h1>
+    </header>
+
+    <h2 class="status-header">Current Features</h2>
+    <button type="button" class="collapsible">Three Interfaces</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-1.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Folder/Class/Activity System</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-2.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Exercise pools</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-3.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Exercise Preview</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-4.jpg');"></div>
+        <div class="image-placeholder" style="background-image: url('imgs/img-5.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Class Preview</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-6.jpg');"></div>
+        <div class="image-placeholder" style="background-image: url('imgs/img-7.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Exercise Report and Learning Analytics</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-9.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Linguistic Statistics</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-22.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Exercise Attempt</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-16.jpg');"></div>
+        <div class="image-placeholder" style="background-image: url('imgs/img-17.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Automatic Feedback</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-18.jpg');"></div>
+        <div class="image-placeholder" style="background-image: url('imgs/img-19.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Exercise type 1: C-test</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-13.jpg');"></div>
+        <div class="image-placeholder" style="background-image: url('imgs/img-14.jpg');"></div>
+        <div class="image-placeholder" style="background-image: url('imgs/img-15.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Exercise type 1: Matching</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-12.jpg');"></div>
+        <div class="image-placeholder" style="background-image: url('imgs/img-17.jpg');"></div>
+    </div>
+
+    <button type="button" class="collapsible">Exercise type 1: Wrong Element</button>
+    <div class="content">
+        <div class="image-placeholder" style="background-image: url('imgs/img-23.png');"></div>
+    </div>
+
+
+
+    <h2 class="status-header">Planned Features</h2>
+    <button type="button" class="non-collapsible">Exercise type: Picture labelling</button>
+
+    <button type="button" class="non-collapsible">Exercise type: Chinese Character and stroke order</button>
+
+    <button type="button" class="non-collapsible">Exercise type: Open-ended writing</button>
+
+    <button type="button" class="non-collapsible">Exercise type: Speech/Dialog exercise</button>
+
+    <button type="button" class="non-collapsible">Exercise type: Listening with/out Pictures</button>
+
+    <button type="button" class="non-collapsible">Extending the Matching exercise</button>
+
+    <button type="button" class="non-collapsible">Extending AI support and feedback to teachers</button>
+
+
+    <footer>
+        <p>Status : Online <i class="fa fa-circle indicator" aria-hidden="true"></i></p>
+        <p>Last Update : 15 April 2024</p>
+    </footer>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".collapsible").click(function () {
+            $(this).toggleClass("active").next().slideToggle("fast");
+        });
+    });
+</script>
+
+</html>

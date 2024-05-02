@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    color: #000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+    bottom: 0;
+    width: 100%;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+
+.non-collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+}
+
+.indicator {
+    color: green;
+}
+
+.status-header {
+    padding: 5px 20px;
+}
+
+.image-placeholder {
+    width: 600px;
+    /* Adjust width as needed */
+    height: 340px;
+    /* Adjust height as needed */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Adjust the shadow properties as needed */
+}
