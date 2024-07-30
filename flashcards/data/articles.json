@@ -2,17 +2,17 @@
     "data": [
         {
             "task": "Hund",
-            "solution": "<div class=\"masculine line\">n-der a-den d-dem g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Hunde</div>",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Hunde</div>",
             "status": "0"
         },
         {
             "task": "Katze",
-            "solution": "<div class=\"feminine line\">n-die a-die d-der g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Katzen</div>",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Katzen</div>",
             "status": "0"
         },
         {
             "task": "Haus",
-            "solution": "<div class=\"neuter line\">n-das a-das d-dem g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Häuser</div>",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Häuser</div>",
             "status": "0"
         }
     ]
