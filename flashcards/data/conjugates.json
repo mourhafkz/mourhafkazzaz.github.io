@@ -9,6 +9,26 @@
             "ihr": "sei<span class=\"ending\">d</span>",
             "sie;Sie": "sin<span class=\"ending\">d</span>",
             "status": "0"
+        },
+        {
+            "verb": "kommen <p class=\"tense\">present</p><p class=\"verb_meaning\">to come</p>",
+            "ich": "komm<span class=\"ending\">e</span>",
+            "du": "komms<span class=\"ending\">t</span>",
+            "er;sie;es": "komm<span class=\"ending\">t</span>",
+            "wir": "komme<span class=\"ending\">n</span>",
+            "ihr": "komm<span class=\"ending\">t</span>",
+            "sie;Sie": "komme<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "heißen <p class=\"tense\">present</p><p class=\"verb_meaning\">to be called</p>",
+            "ich": "heiß<span class=\"ending\">e</span>",
+            "du": "heiß<span class=\"ending\">t</span>",
+            "er;sie;es": "heiß<span class=\"ending\">t</span>",
+            "wir": "heiße<span class=\"ending\">n</span>",
+            "ihr": "heiß<span class=\"ending\">t</span>",
+            "sie;Sie": "heiße<span class=\"ending\">n</span>",
+            "status": "0"
         }
     ]
 }
