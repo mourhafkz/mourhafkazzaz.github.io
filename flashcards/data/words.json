@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "task": "dog",
+            "solution": "<span class=\"masculine\">der</span> Hund",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Hund",
+            "solution": "dog",
+            "status": "0"
+        },
+        {
+            "task": "cat",
+            "solution": "<span class=\"feminine\">die</span> Katze",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Katze",
+            "solution": "cat",
+            "status": "0"
+        },
+        {
+            "task": "house",
+            "solution": "<span class=\"neuter\">das</span> Haus",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Haus",
+            "solution": "house",
+            "status": "0"
+        },
+        {
+            "task": "shcon",
+            "solution": "already",
+            "status": "0"
+        },
+        {
+            "task": "already",
+            "solution": "shcon",
+            "status": "0"
+        }
+    ]
+}

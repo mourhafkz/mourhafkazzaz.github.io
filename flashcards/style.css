@@ -1,0 +1,154 @@
+:root {
+    --background: #ececec;
+    --button: #5da2d5;
+    --button_hover: #90ccf4;
+    --card_front: #f78888;
+    --card_back: #f3d250;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background);
+
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+}
+
+.card .face {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 1s ease-in-out;
+    transform: perspective(500px) rotateY(0deg);
+    flex-wrap: wrap;
+}
+
+.card .face.front {
+    background: var(--card_front);
+}
+
+.card:hover .face.front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card .face.back {
+    background: var(--card_back);
+    color: #000;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .face.back {
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.card .face h2 {
+    font-size: 1.5em;
+    transform: perspective(500px) translateZ(50px);
+}
+
+.buttons_area {
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+}
+
+.buttons_area .buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    left: 5%;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.button {
+    background-color: var(--button);
+    /* Green */
+    border: none;
+    color: white;
+    min-width: 185px;
+    padding: 15px 32px;
+    font-size: 1em;
+}
+
+
+.button:hover {
+    background-color: var(--button_hover);
+    color: black;
+}
+
+p {
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* font-size: 1.5em; */
+    transform: perspective(500px) translateZ(50px);
+}
+
+
+.neuter {
+    color: green;
+}
+
+.feminine {
+    color: red;
+}
+
+.masculine {
+    color: blue;
+}
+
+.tense {
+    color: rgb(223, 223, 28);
+    font-size: 12px;
+}
+
+.tense_display {
+    font-size: 1.5em;
+}
+
+.verb_meaning {
+    margin-top: 165px;
+    font-size: 8px;
+}
+
+.plural {
+    display: block;
+    font-size: 8px;
+}
+
+.line {
+    transform: perspective(500px) translateZ(50px);
+}
+
+.ending {
+    color: red;
+}
+
+.line-break {
+    width: 100%;
+}

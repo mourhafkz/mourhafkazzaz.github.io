@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "verb": "sein <p class=\"tense\">present</p><p class=\"verb_meaning\">to be</p>",
+            "ich": "bi<span class=\"ending\">n</span>",
+            "du": "bis<span class=\"ending\">t</span>",
+            "er;sie;es": "is<span class=\"ending\">t</span>",
+            "wir": "sin<span class=\"ending\">d</span>",
+            "ihr": "sei<span class=\"ending\">d</span>",
+            "sie;Sie": "sin<span class=\"ending\">d</span>",
+            "status": "0"
+        }
+    ]
+}
