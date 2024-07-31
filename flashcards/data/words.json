@@ -31,13 +31,483 @@
             "status": "0"
         },
         {
-            "task": "shcon",
+            "task": "name",
+            "solution": "<span class=\"masculine\">der</span> Name",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Name",
+            "solution": "name",
+            "status": "0"
+        },
+        {
+            "task": "country",
+            "solution": "<span class=\"neuter\">das</span> Land",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Land",
+            "solution": "country",
+            "status": "0"
+        },
+        {
+            "task": "number, count, digit",
+            "solution": "<span class=\"feminine\">die</span> Zahl",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Zahl",
+            "solution": "number, count, digit",
+            "status": "0"
+        },
+        {
+            "task": "number",
+            "solution": "<span class=\"feminine\">die</span> Nummer",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Nummer",
+            "solution": "number",
+            "status": "0"
+        },
+        {
+            "task": "homeland",
+            "solution": "<span class=\"feminine\">die</span> Heimat",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Heimat",
+            "solution": "homeland",
+            "status": "0"
+        },
+        {
+            "task": "nationality",
+            "solution": "<span class=\"feminine\">die</span> Nationalität",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Nationalität",
+            "solution": "nationality",
+            "status": "0"
+        },
+        {
+            "task": "language",
+            "solution": "<span class=\"feminine\">die</span> Sprache",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Sprache",
+            "solution": "language",
+            "status": "0"
+        },
+        {
+            "task": "pencil",
+            "solution": "<span class=\"masculine\">der</span> Stift",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Stift",
+            "solution": "pencil",
+            "status": "0"
+        },
+        {
+            "task": "ballpen",
+            "solution": "<span class=\"masculine\">der</span> Kugelschreiber",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Kugelschreiber",
+            "solution": "ballpen",
+            "status": "0"
+        },
+        {
+            "task": "pen",
+            "solution": "<span class=\"masculine\">der</span> Kuli",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Kuli",
+            "solution": "pen",
+            "status": "0"
+        },
+        {
+            "task": "laptop",
+            "solution": "<span class=\"masculine\">der</span> Laptop",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Laptop",
+            "solution": "laptop",
+            "status": "0"
+        },
+        {
+            "task": "tablet",
+            "solution": "<span class=\"neuter\">das</span> Tablet",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Tablet",
+            "solution": "tablet",
+            "status": "0"
+        },
+        {
+            "task": "key",
+            "solution": "<span class=\"masculine\">der</span> Schlüssel",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Schlüssel",
+            "solution": "key",
+            "status": "0"
+        },
+        {
+            "task": "table",
+            "solution": "<span class=\"masculine\">der</span> Tisch",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Tisch",
+            "solution": "table",
+            "status": "0"
+        },
+        {
+            "task": "chair",
+            "solution": "<span class=\"masculine\">der</span> Stuhl",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Stuhl",
+            "solution": "chair",
+            "status": "0"
+        },
+        {
+            "task": "book",
+            "solution": "<span class=\"neuter\">das</span> Buch",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Buch",
+            "solution": "book",
+            "status": "0"
+        },
+        {
+            "task": "notebook",
+            "solution": "<span class=\"neuter\">das</span> Heft",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Heft",
+            "solution": "notebook",
+            "status": "0"
+        },
+        {
+            "task": "cellphone",
+            "solution": "<span class=\"neuter\">das</span> Handy",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Handy",
+            "solution": "cellphone",
+            "status": "0"
+        },
+        {
+            "task": "window",
+            "solution": "<span class=\"neuter\">das</span> Fenster",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Fenster",
+            "solution": "window",
+            "status": "0"
+        },
+        {
+            "task": "lamp",
+            "solution": "<span class=\"feminine\">die</span> Lampe",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Lampe",
+            "solution": "lamp",
+            "status": "0"
+        },
+        {
+            "task": "glasses",
+            "solution": "<span class=\"feminine\">die</span> Brille",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Brille",
+            "solution": "glasses",
+            "status": "0"
+        },
+        {
+            "task": "cd",
+            "solution": "<span class=\"feminine\">die</span> CD",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> CD",
+            "solution": "cd",
+            "status": "0"
+        },
+        {
+            "task": "bottle",
+            "solution": "<span class=\"feminine\">die</span> Flasche",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Flasche",
+            "solution": "bottle",
+            "status": "0"
+        },
+        {
+            "task": "door",
+            "solution": "<span class=\"feminine\">die</span> Tür",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Tür",
+            "solution": "door",
+            "status": "0"
+        },
+        {
+            "task": "clock",
+            "solution": "<span class=\"feminine\">die</span> Uhr",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Uhr",
+            "solution": "clock",
+            "status": "0"
+        },
+        {
+            "task": "board",
+            "solution": "<span class=\"feminine\">die</span> Tafel",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Tafel",
+            "solution": "board",
+            "status": "0"
+        },
+        {
+            "task": "bag",
+            "solution": "<span class=\"feminine\">die</span> Tasche",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Tasche",
+            "solution": "bag",
+            "status": "0"
+        },
+        {
+            "task": "euro",
+            "solution": "<span class=\"masculine\">der</span> Euro",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Euro",
+            "solution": "euro",
+            "status": "0"
+        },
+        {
+            "task": "area code",
+            "solution": "<span class=\"feminine\">die</span> Vorwahl",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Vorwahl",
+            "solution": "area code",
+            "status": "0"
+        },
+        {
+            "task": "address",
+            "solution": "<span class=\"feminine\">die</span> Adresse",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Adresse",
+            "solution": "address",
+            "status": "0"
+        },
+        {
+            "task": "street",
+            "solution": "<span class=\"feminine\">die</span> Straße",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Straße",
+            "solution": "street",
+            "status": "0"
+        },
+        {
+            "task": "zip code",
+            "solution": "<span class=\"feminine\">die</span> Postleitzahl",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Postleitzahl",
+            "solution": "zip code",
+            "status": "0"
+        },
+        {
+            "task": "kindergarten",
+            "solution": "<span class=\"feminine\">die</span> Kita",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Kita",
+            "solution": "kindergarten",
+            "status": "0"
+        },
+        {
+            "task": "city square",
+            "solution": "<span class=\"masculine\">der</span> Platz",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"masculine\">der</span> Platz",
+            "solution": "city square",
+            "status": "0"
+        },
+        {
+            "task": "registration form",
+            "solution": "<span class=\"neuter\">das</span> Anmeldeformular",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"neuter\">das</span> Anmeldeformular",
+            "solution": "registration form",
+            "status": "0"
+        },
+        {
+            "task": "work",
+            "solution": "<span class=\"feminine\">die</span> Arbeit",
+            "status": "0"
+        },
+        {
+            "task": "<span class=\"feminine\">die</span> Arbeit",
+            "solution": "work",
+            "status": "0"
+        },
+        {
+            "task": "schon",
             "solution": "already",
             "status": "0"
         },
         {
             "task": "already",
-            "solution": "shcon",
+            "solution": "schon",
+            "status": "0"
+        },
+        {
+            "task": "wie viel kostet das?",
+            "solution": "das kostet ...",
+            "status": "0"
+        },
+        {
+            "task": "das kostet ...",
+            "solution": "wie viel kostet das?",
+            "status": "0"
+        },
+        {
+            "task": "Auf Wiedersehen",
+            "solution": "see you (formal)",
+            "status": "0"
+        },
+        {
+            "task": "see you (formal)",
+            "solution": "Auf Wiedersehen",
+            "status": "0"
+        },
+        {
+            "task": "Bis bald",
+            "solution": "until later",
+            "status": "0"
+        },
+        {
+            "task": "until later",
+            "solution": "Bis bald",
+            "status": "0"
+        },
+        {
+            "task": "Es geht so",
+            "solution": "it is okay",
+            "status": "0"
+        },
+        {
+            "task": "it is okay",
+            "solution": "Es geht so",
+            "status": "0"
+        },
+        {
+            "task": "Tschüss",
+            "solution": "bye",
+            "status": "0"
+        },
+        {
+            "task": "bye",
+            "solution": "Tschüss",
+            "status": "0"
+        },
+        {
+            "task": "Bis morgen",
+            "solution": "until the morning",
+            "status": "0"
+        },
+        {
+            "task": "until the morning",
+            "solution": "Bis morgen",
+            "status": "0"
+        },
+        {
+            "task": "Was machst du?",
+            "solution": "what do you do? What are you doing?",
+            "status": "0"
+        },
+        {
+            "task": "what do you do? What are you doing?",
+            "solution": "Was machst du?",
+            "status": "0"
+        },
+        {
+            "task": "Entschuldigung",
+            "solution": "Excuse me",
+            "status": "0"
+        },
+        {
+            "task": "Excuse me",
+            "solution": "Entschuldigung",
+            "status": "0"
+        },
+        {
+            "task": "Wie bitte?",
+            "solution": "Pardon?",
+            "status": "0"
+        },
+        {
+            "task": "Pardon?",
+            "solution": "Wie bitte?",
+            "status": "0"
+        },
+        {
+            "task": "Wie schreibt man das?",
+            "solution": "How do you write that?",
+            "status": "0"
+        },
+        {
+            "task": "How do you write that?",
+            "solution": "Wie schreibt man das?",
+            "status": "0"
+        },
+        {
+            "task": "wo liegt...?",
+            "solution": "Where is ... located?",
+            "status": "0"
+        },
+        {
+            "task": "Where is ... located?",
+            "solution": "wo liegt...?",
             "status": "0"
         }
     ]

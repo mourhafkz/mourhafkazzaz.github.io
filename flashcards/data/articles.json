@@ -14,6 +14,186 @@
             "task": "Haus",
             "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Häuser</div>",
             "status": "0"
+        },
+        {
+            "task": "Name",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Namen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Land",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Länder</div>",
+            "status": "0"
+        },
+        {
+            "task": "Zahl",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Zahlen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Nummer",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Nummern</div>",
+            "status": "0"
+        },
+        {
+            "task": "Heimat",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Heimaten</div>",
+            "status": "0"
+        },
+        {
+            "task": "Nationalität",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Nationalitäten</div>",
+            "status": "0"
+        },
+        {
+            "task": "Sprache",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Sprachen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Stift",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Stifte</div>",
+            "status": "0"
+        },
+        {
+            "task": "Kugelschreiber",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Kugelschreiber</div>",
+            "status": "0"
+        },
+        {
+            "task": "Kuli",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Kulis</div>",
+            "status": "0"
+        },
+        {
+            "task": "Laptop",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Laptops</div>",
+            "status": "0"
+        },
+        {
+            "task": "Tablet",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Tablets</div>",
+            "status": "0"
+        },
+        {
+            "task": "Schlüssel",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Schlüssel</div>",
+            "status": "0"
+        },
+        {
+            "task": "Tisch",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Tische</div>",
+            "status": "0"
+        },
+        {
+            "task": "Stuhl",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Stühle</div>",
+            "status": "0"
+        },
+        {
+            "task": "Buch",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Bücher</div>",
+            "status": "0"
+        },
+        {
+            "task": "Heft",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Hefte</div>",
+            "status": "0"
+        },
+        {
+            "task": "Handy",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Handys</div>",
+            "status": "0"
+        },
+        {
+            "task": "Fenster",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Fenster</div>",
+            "status": "0"
+        },
+        {
+            "task": "Lampe",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Lampen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Brille",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Brillen</div>",
+            "status": "0"
+        },
+        {
+            "task": "CD",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die CDs</div>",
+            "status": "0"
+        },
+        {
+            "task": "Flasche",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Flaschen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Tür",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Türen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Uhr",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Uhren</div>",
+            "status": "0"
+        },
+        {
+            "task": "Tafel",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Tafeln</div>",
+            "status": "0"
+        },
+        {
+            "task": "Tasche",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Taschen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Euro",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Euros</div>",
+            "status": "0"
+        },
+        {
+            "task": "Vorwahl",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Vorwahlen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Adresse",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Adressen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Straße",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Straßen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Postleitzahl",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Postleitzahlen</div>",
+            "status": "0"
+        },
+        {
+            "task": "Kita",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Kitas</div>",
+            "status": "0"
+        },
+        {
+            "task": "Platz",
+            "solution": "<div class=\"masculine line\">n-der<br>a-den<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Plätze</div>",
+            "status": "0"
+        },
+        {
+            "task": "Anmeldeformular",
+            "solution": "<div class=\"neuter line\">n-das<br>a-das<br>d-dem<br>g-des</div><div class=\"line-break\"></div><div class=\"plural line\">die Anmeldeformulare</div>",
+            "status": "0"
+        },
+        {
+            "task": "Arbeit",
+            "solution": "<div class=\"feminine line\">n-die<br>a-die<br>d-der<br>g-der</div><div class=\"line-break\"></div><div class=\"plural line\">die Arbeiten</div>",
+            "status": "0"
         }
     ]
 }

@@ -29,6 +29,126 @@
             "ihr": "heiß<span class=\"ending\">t</span>",
             "sie;Sie": "heiße<span class=\"ending\">n</span>",
             "status": "0"
+        },
+        {
+            "verb": "wohnen <p class=\"tense\">present</p><p class=\"verb_meaning\">to live</p>",
+            "ich": "wohn<span class=\"ending\">e</span>",
+            "du": "wohns<span class=\"ending\">t</span>",
+            "er;sie;es": "wohn<span class=\"ending\">t</span>",
+            "wir": "wohne<span class=\"ending\">n</span>",
+            "ihr": "wohn<span class=\"ending\">t</span>",
+            "sie;Sie": "wohne<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "schreiben <p class=\"tense\">present</p><p class=\"verb_meaning\">to write</p>",
+            "ich": "schreib<span class=\"ending\">e</span>",
+            "du": "schreibs<span class=\"ending\">t</span>",
+            "er;sie;es": "schreib<span class=\"ending\">t</span>",
+            "wir": "schreibe<span class=\"ending\">n</span>",
+            "ihr": "schreib<span class=\"ending\">t</span>",
+            "sie;Sie": "schreibe<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "buchstabieren <p class=\"tense\">present</p><p class=\"verb_meaning\">to spell</p>",
+            "ich": "buchstabier<span class=\"ending\">e</span>",
+            "du": "buchstabiers<span class=\"ending\">t</span>",
+            "er;sie;es": "buchstabier<span class=\"ending\">t</span>",
+            "wir": "buchstabiere<span class=\"ending\">n</span>",
+            "ihr": "buchstabier<span class=\"ending\">t</span>",
+            "sie;Sie": "buchstabiere<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "machen <p class=\"tense\">present</p><p class=\"verb_meaning\">to do or make</p>",
+            "ich": "mach<span class=\"ending\">e</span>",
+            "du": "machs<span class=\"ending\">t</span>",
+            "er;sie;es": "mach<span class=\"ending\">t</span>",
+            "wir": "mache<span class=\"ending\">n</span>",
+            "ihr": "mach<span class=\"ending\">t</span>",
+            "sie;Sie": "mache<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "lernen <p class=\"tense\">present</p><p class=\"verb_meaning\">to study</p>",
+            "ich": "lern<span class=\"ending\">e</span>",
+            "du": "lerns<span class=\"ending\">t</span>",
+            "er;sie;es": "lern<span class=\"ending\">t</span>",
+            "wir": "lerne<span class=\"ending\">n</span>",
+            "ihr": "lern<span class=\"ending\">t</span>",
+            "sie;Sie": "lerne<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "liegen <p class=\"tense\">present</p><p class=\"verb_meaning\">to be located</p>",
+            "ich": "lieg<span class=\"ending\">e</span>",
+            "du": "liegs<span class=\"ending\">t</span>",
+            "er;sie;es": "lieg<span class=\"ending\">t</span>",
+            "wir": "liege<span class=\"ending\">n</span>",
+            "ihr": "lieg<span class=\"ending\">t</span>",
+            "sie;Sie": "liege<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "arbeiten <p class=\"tense\">present</p><p class=\"verb_meaning\">to work</p>",
+            "ich": "arbeit<span class=\"ending\">e</span>",
+            "du": "arbeites<span class=\"ending\">t</span>",
+            "er;sie;es": "arbeite<span class=\"ending\">t</span>",
+            "wir": "arbeite<span class=\"ending\">n</span>",
+            "ihr": "arbeite<span class=\"ending\">t</span>",
+            "sie;Sie": "arbeite<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "lieben <p class=\"tense\">present</p><p class=\"verb_meaning\">to like</p>",
+            "ich": "lieb<span class=\"ending\">e</span>",
+            "du": "liebs<span class=\"ending\">t</span>",
+            "er;sie;es": "lieb<span class=\"ending\">t</span>",
+            "wir": "liebe<span class=\"ending\">n</span>",
+            "ihr": "lieb<span class=\"ending\">t</span>",
+            "sie;Sie": "liebe<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "leben <p class=\"tense\">present</p><p class=\"verb_meaning\">to live</p>",
+            "ich": "leb<span class=\"ending\">e</span>",
+            "du": "lebs<span class=\"ending\">t</span>",
+            "er;sie;es": "leb<span class=\"ending\">t</span>",
+            "wir": "lebe<span class=\"ending\">n</span>",
+            "ihr": "leb<span class=\"ending\">t</span>",
+            "sie;Sie": "lebe<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "suchen <p class=\"tense\">present</p><p class=\"verb_meaning\">to look for</p>",
+            "ich": "such<span class=\"ending\">e</span>",
+            "du": "suchs<span class=\"ending\">t</span>",
+            "er;sie;es": "such<span class=\"ending\">t</span>",
+            "wir": "suche<span class=\"ending\">n</span>",
+            "ihr": "such<span class=\"ending\">t</span>",
+            "sie;Sie": "suche<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "kosten <p class=\"tense\">present</p><p class=\"verb_meaning\">to cost</p>",
+            "ich": "kost<span class=\"ending\">e</span>",
+            "du": "kostes<span class=\"ending\">t</span>",
+            "er;sie;es": "koste<span class=\"ending\">t</span>",
+            "wir": "koste<span class=\"ending\">n</span>",
+            "ihr": "koste<span class=\"ending\">t</span>",
+            "sie;Sie": "koste<span class=\"ending\">n</span>",
+            "status": "0"
+        },
+        {
+            "verb": "schicken <p class=\"tense\">present</p><p class=\"verb_meaning\">to send</p>",
+            "ich": "schick<span class=\"ending\">e</span>",
+            "du": "schicks<span class=\"ending\">t</span>",
+            "er;sie;es": "schick<span class=\"ending\">t</span>",
+            "wir": "schicke<span class=\"ending\">n</span>",
+            "ihr": "schick<span class=\"ending\">t</span>",
+            "sie;Sie": "schicke<span class=\"ending\">n</span>",
+            "status": "0"
         }
     ]
 }
